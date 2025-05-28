@@ -1,0 +1,239 @@
+{
+    "actions": [],
+    "assets": [
+        {
+            "id": "asset_1745429432696",
+            "uid": "asset_1745429432696",
+            "type": "gltf",
+            "name": "Room",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/bedroom.glb",
+            "parameters": {},
+            "progress": 100,
+            "clone": true,
+            "isAsset": true
+        },
+        {
+            "id": "asset_1745667541047",
+            "uid": "asset_1745667541047",
+            "type": "gltf",
+            "name": "Новый ресурс",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/bull_head_1k.gltf",
+            "parameters": {},
+            "progress": 100,
+            "isAsset": true,
+            "clone": true,
+            "envMap": "asset_1745684398027",
+            "shadow.cast": false,
+            "shadow.receive": false
+        },
+        {
+            "id": "asset_1745684398027",
+            "uid": "asset_1745684398027",
+            "type": "hdr",
+            "name": "hdr",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/kloofendal_43d_clear_puresky_1k.hdr",
+            "parameters": {},
+            "progress": 0,
+            "isAsset": true
+        },
+        {
+            "id": "asset_1745697113315",
+            "uid": "asset_1745697113315",
+            "type": "hdr",
+            "name": "MiddayHDR",
+            "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/clarens_midday_1k.hdr",
+            "parameters": {},
+            "progress": 0,
+            "isAsset": true
+        },
+        {
+            "id": "asset_1745698079563",
+            "uid": "asset_1745698079563",
+            "type": "hdr",
+            "name": "Studio",
+            "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/warm_restaurant_night_1k.hdr",
+            "parameters": {},
+            "progress": 0,
+            "isAsset": true
+        },
+        {
+            "id": "asset_1745818417709",
+            "uid": "asset_1745818417709",
+            "type": "gltf",
+            "name": "Floor",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/floor.glb",
+            "parameters": {},
+            "progress": 100,
+            "isAsset": true
+        }
+    ],
+    "elements": [
+        {
+            "id": "Element1745602561559",
+            "name": "Models",
+            "uid": "Element1745602561559",
+            "type": "block",
+            "paths": [
+                "Element1745602561559"
+            ],
+            "path": "Element1745602561559",
+            "visible": true,
+            "view": true,
+            "children": [
+                {
+                    "name": "Bedroom",
+                    "uid": "Element1745602564567",
+                    "type": "model",
+                    "paths": [
+                        "Element1745602561559",
+                        "Element1745602564567"
+                    ],
+                    "path": "Element1745602561559.Element1745602564567",
+                    "visible": true,
+                    "assets": [
+                        {
+                            "uid": "asset_1745429432696"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "name": "Новый элемент",
+                    "uid": "Element1745667627072",
+                    "type": "model",
+                    "paths": [
+                        "Element1745602561559",
+                        "Element1745667627072"
+                    ],
+                    "path": "Element1745602561559.Element1745667627072",
+                    "visible": true,
+                    "assets": [
+                        {
+                            "uid": "asset_1745667541047"
+                        }
+                    ],
+                    "position": {
+                        "x": 1.9427737713914546,
+                        "y": 0.8386620784466575,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0.8429975762786249,
+                        "y": 0.9350366640573716,
+                        "z": 0.8634025290931873
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": -1.5511212858493053,
+                        "z": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "camroot",
+            "uid": "camroot",
+            "type": "block",
+            "path": "camroot",
+            "paths": [
+                "camroot"
+            ],
+            "position": {
+                "x": 1.3576240668149548,
+                "y": 0.9693,
+                "z": 3.6453760509847535
+            },
+            "rotation": {
+                "x": -0.07985588355218486,
+                "y": -0.19794746862030363,
+                "z": -0.015736410221755082
+            },
+            "view": true,
+            "name": "CameraRoot",
+            "children": [
+                {
+                    "properties": {
+                        "fov": 60,
+                        "visible": true
+                    },
+                    "name": "maincam",
+                    "uid": "maincam",
+                    "path": "camroot.maincam",
+                    "paths": [
+                        "camroot",
+                        "maincam"
+                    ],
+                    "type": "PerspectiveCamera"
+                }
+            ]
+        }
+    ],
+    "slides": [
+        {
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "camera": {
+                "uid": "camroot.maincam"
+            },
+            "name": "Base",
+            "uid": "base",
+            "children": [
+                {
+                    "uid": "camroot",
+                    "position": {
+                        "x": -1.2023798992932706,
+                        "y": 1.542304339764691,
+                        "z": 3.748412652040435
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": -0.3447868633319254,
+                        "z": 0
+                    }
+                },
+                {
+                    "uid": "Element1745602561559",
+                    "name": "Новый элемент",
+                    "paths": [
+                        "Element1745602561559"
+                    ],
+                    "view": true
+                }
+            ]
+        },
+        {
+            "name": "New",
+            "uid": "sl1745654184866",
+            "children": [
+                {
+                    "uid": "Element1745602561559",
+                    "name": "Models",
+                    "paths": [
+                        "Element1745602561559"
+                    ],
+                    "view": true
+                },
+                {
+                    "uid": "camroot",
+                    "name": "CameraRoot",
+                    "paths": [
+                        "camroot"
+                    ],
+                    "view": true,
+                    "position": {
+                        "x": 1.2422297841588783,
+                        "y": 1.2029519539167879,
+                        "z": 0.4841392217797915
+                    },
+                    "rotation": {
+                        "x": -0.549498521523039,
+                        "y": -0.9297174947865827,
+                        "z": -0.43606938748182933
+                    }
+                }
+            ]
+        }
+    ]
+}
