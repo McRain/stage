@@ -1,0 +1,48 @@
+[
+    {
+        "uid": "easyglb",
+        "url": "assets/easy.glb",
+        "type": "gltf",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "cubeglb",
+        "url": "assets/cube.glb",
+        "type": "gltf",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "hexagonglb",
+        "url": "assets/hexagon.glb",
+        "type": "gltf",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "hdr43",
+        "url": "assets/43d.hdr",
+        "type": "hdr"
+    },
+    {
+        "uid": "hdr48",
+        "url": "assets/48d.hdr",
+        "type": "hdr"
+    }
+]

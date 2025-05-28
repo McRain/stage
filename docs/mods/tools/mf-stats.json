@@ -1,0 +1,188 @@
+{
+  "id": "tools",
+  "name": "tools",
+  "metaData": {
+    "name": "tools",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.mods.tools"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "tools",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "/mods/tools/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "shareScope": "default",
+      "import": "@reneos/app",
+      "eager": true,
+      "shareKey": "@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "id": "tools:@reneos/app",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./tools"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "shareScope": "default",
+      "import": "vue",
+      "shareKey": "vue",
+      "eager": true,
+      "name": "vue",
+      "version": "3.5.13",
+      "id": "tools:vue",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./tools"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "tools",
+      "moduleName": "UNKNOWN",
+      "version": "/tools/mod.mf.js",
+      "federationContainerName": "tools",
+      "consumingFederationContainerName": "tools",
+      "usedIn": []
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./tools",
+      "id": "tools:tools",
+      "name": "tools",
+      "requires": [
+        "@reneos/app",
+        "vue"
+      ],
+      "file": "src\\index.mf.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "993.bundle.js"
+          ],
+          "async": [
+            "712.bundle.js",
+            "157.bundle.js",
+            "691.bundle.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": [
+            "712.css",
+            "157.css",
+            "691.css"
+          ]
+        }
+      }
+    },
+    {
+      "path": "./GoToUI",
+      "id": "tools:GoToUI",
+      "name": "GoToUI",
+      "requires": [],
+      "file": "src\\actions\\GoToUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "955.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GoToUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./BackSlideUI",
+      "id": "tools:BackSlideUI",
+      "name": "BackSlideUI",
+      "requires": [],
+      "file": "src\\actions\\BackSlideUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "330.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_BackSlideUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./NextSlideUI",
+      "id": "tools:NextSlideUI",
+      "name": "NextSlideUI",
+      "requires": [],
+      "file": "src\\actions\\NextSlideUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "628.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_NextSlideUI.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}

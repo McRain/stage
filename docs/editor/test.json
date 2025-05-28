@@ -1,0 +1,610 @@
+{
+    "actions": {
+        "tweenmove": {
+            "uid": "tweenmove",
+            "type": "TweenPos",
+            "delay": 0,
+            "time": 200,
+            "from": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "to": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 3
+                }
+            },
+            "easing": "Easing.Linear.InOut",
+            "repeat": 0,
+            "yoyo": false
+        },
+        "tweenrotate": {
+            "uid": "tweenrotate",
+            "type": "TweenRotation",
+            "delay": 1,
+            "time": 200,
+            "from": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "to": {
+                "type": "relative",
+                "value": {
+                    "x": 0,
+                    "y": -1.4660765716752369,
+                    "z": 0
+                }
+            },
+            "easing": "Easing.Linear.InOut",
+            "repeat": 0,
+            "yoyo": false
+        }
+    },
+    "assets": [
+        {
+            "uid": "bull_head_1k",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/bull_head_1k.gltf",
+            "type": "gltf",
+            "clone": true,
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene",
+            "name":"Bull head",
+            "path":"bull_head_1k"
+        },
+        {
+            "uid": "lion_head_1k",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/lion_head_1k.gltf",
+            "type": "gltf",
+            "clone": true,
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "horse_head_1k",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/horse_head_1k.gltf",
+            "type": "gltf",
+            "clone": true,
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "round_wooden_table_02_1k",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/round_wooden_table_02_1k.gltf",
+            "type": "gltf",
+            "clone": true,
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "wood_floor_deck_1k",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/floor.glb",
+            "type": "gltf",
+            "clone": true,
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene"
+        },
+        {
+            "uid": "hexagon",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/hexagon.glb",
+            "type": "gltf",
+            "clone": true,
+            "shadow": {
+                "cast": true,
+                "receive": false
+            },
+            "envMap": "hdrscene",
+            "scale": {
+                "x": 0.1,
+                "y": 0.1,
+                "z": 0.1
+            }
+        },
+        {
+            "uid": "hdrscene",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/kloofendal_43d_clear_puresky_1k.hdr",
+            "type": "hdr"
+        }
+    ],
+    "elements": [
+        {
+            "uid": "cam1",
+            "type": "camera",
+            "path": "cam1",
+            "paths": [
+                "cam1"
+            ]
+        },
+        {
+            "type": "block",
+            "uid": "light",
+            "path": "light",
+            "name": "Light",
+            "paths": [
+                "light"
+            ],
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "children": [
+                {
+                    "type": "AmbientLight",
+                    "uid": "AmbientLight",
+                    "path": "light.AmbientLight",
+                    "name": "Ambient Light",
+                    "args": [],
+                    "paths": [
+                        "light",
+                        "AmbientLight"
+                    ],
+                    "properties": {
+                        "intensity": 0.2,
+                        "color": {
+                            "type": "Color",
+                            "args": [
+                                "#ffffff"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "DirectLight",
+                    "uid": "DirectionalLight",
+                    "path": "sun.DirectionalLight",
+                    "name": "Directional Light",
+                    "paths": [
+                        "light",
+                        "DirectionalLight"
+                    ],
+                    "properties": {
+                        "intensity": 1,
+                        "color": {
+                            "type": "Color",
+                            "args": [
+                                "#ffffff"
+                            ]
+                        }
+                    },
+                    "position": {
+                        "x": 3,
+                        "y": 3,
+                        "z": -3
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "block",
+            "uid": "bull_head",
+            "path": "bull_head",
+            "name": "Bull root",
+            "actions": [],
+            "paths": [
+                "bull_head"
+            ],
+            "children": [
+                {
+                    "type": "model",
+                    "uid": "bull",
+                    "path": "bull_head.bull",
+                    "paths": [
+                        "bull_head",
+                        "bull"
+                    ],
+                    "name": "Bull element",
+                    "assets": [
+                        {
+                            "uid": "bull_head_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "model",
+                    "uid": "round_wooden_table_02_1k",
+                    "path": "bull_head.round_wooden_table_02_1k",
+                    "paths": [
+                        "bull_head",
+                        "round_wooden_table_02_1k"
+                    ],
+                    "position": {
+                        "x": 0,
+                        "y": -0.74,
+                        "z": 0
+                    },
+                    "assets": [
+                        {
+                            "uid": "round_wooden_table_02_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "uielement",
+                    "uid": "bulllabel",
+                    "path": "bull_head.bulllabel",
+                    "paths": [
+                        "bull_head",
+                        "bulllabel"
+                    ],
+                    "text": "Bull head",
+                    "html": "<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
+                    "size": "2em",
+                    "offset": {
+                        "x": 0,
+                        "y": 0.36,
+                        "z": -0.1
+                    },
+                    "card": {
+                        "position": {
+                            "left": "50%",
+                            "top": "32px",
+                            "transform": "translateX(-50%)"
+                        }
+                    }
+                }
+            ],
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        {
+            "type": "block",
+            "uid": "lion_head",
+            "path": "lion_head",
+            "name": "Lion root",
+            "actions": [],
+            "paths": [
+                "lion_head"
+            ],
+            "children": [
+                {
+                    "type": "model",
+                    "uid": "lion",
+                    "path": "lion_head.lion",
+                    "paths": [
+                        "lion_head",
+                        "lion"
+                    ],
+                    "name": "Lion element",
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "assets": [
+                        {
+                            "uid": "lion_head_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "model",
+                    "uid": "round_wooden_table_02_1k",
+                    "path": "lion_head.round_wooden_table_02_1k",
+                    "paths": [
+                        "lion_head",
+                        "round_wooden_table_02_1k"
+                    ],
+                    "name": "element",
+                    "position": {
+                        "x": 0,
+                        "y": -0.74,
+                        "z": 0
+                    },
+                    "assets": [
+                        {
+                            "uid": "round_wooden_table_02_1k",
+                            "shadow": {
+                                "cast": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "uielement",
+                    "uid": "lionlabel",
+                    "path": "lion_head.lionlabel",
+                    "paths": [
+                        "lion_head",
+                        "lionlabel"
+                    ],
+                    "text": "Lion head",
+                    "html": "<p>Starting price $1000</p><p>Auction starts January 10, 2025</p>",
+                    "size": "2em",
+                    "offset": {
+                        "x": 0,
+                        "y": 0.4
+                    },
+                    "card": {
+                        "position": {
+                            "left": "128px",
+                            "top": "32px"
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        {
+            "type": "block",
+            "uid": "floor",
+            "path": "floor",
+            "name": "Floor",
+            "actions": [],
+            "paths": [
+                "floor"
+            ],
+            "children": [
+                {
+                    "type": "model",
+                    "uid": "floormodel",
+                    "path": "floor.floormodel",
+                    "paths": [
+                        "floor",
+                        "floormodel"
+                    ],
+                    "name": "Floor element",
+                    "assets": [
+                        {
+                            "uid": "wood_floor_deck_1k",
+                            "shadow": {
+                                "cast": true,
+                                "receive": true
+                            }
+                        }
+                    ]
+                }
+            ],
+            "position": {
+                "x": 0,
+                "y": -0.75,
+                "z": -2
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 2,
+                "y": 1,
+                "z": 2
+            }
+        }
+    ],
+    "slides": [
+        {
+            "uid": "base",
+            "type": "slide",
+            "name": "Base",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "children": [
+                {
+                    "uid": "cam1",
+                    "visible": true,
+                    "actions": [
+                        {
+                            "uid": "cameraSet",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "callFunc",
+                            "hook": "slide.in",
+                            "method": "setTo",
+                            "paths": [
+                                "model"
+                            ],
+                            "values": {
+                                "focus": {
+                                    "paths": [
+                                        "bull_head"
+                                    ]
+                                },
+                                "camera": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1,
+                                        "z": 0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "bull_head",
+                    "visible": true,
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -2
+                    },
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "bullview"
+                        }
+                    ]
+                },
+                {
+                    "uid": "light",
+                    "visible": true
+                },
+                {
+                    "uid": "floor",
+                    "visible": true
+                }
+            ]
+        },
+        {
+            "uid": "bullview",
+            "type": "slide",
+            "name": "New slide",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "children": [
+                {
+                    "uid": "cam1",
+                    "visible": true,
+                    "actions": [
+                        {
+                            "uid": "cameraSet",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "callFunc",
+                            "hook": "slide.in",
+                            "method": "setTo",
+                            "paths": [
+                                "model"
+                            ],
+                            "values": {
+                                "focus": {
+                                    "paths": [
+                                        "bull_head"
+                                    ],
+                                    "offset": {
+                                        "x": 0,
+                                        "y": 0.1,
+                                        "z": 0
+                                    }
+                                },
+                                "camera": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 1,
+                                        "z": -1.5
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "uid": "bull_head",
+                    "visible": true,
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -2
+                    },
+                    "children": [
+                        {
+                            "uid": "bulllabel",
+                            "actions": [
+                                {
+                                    "uid": "visibleSet",
+                                    "hook": "slide.in",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "uid": "goto",
+                            "hook": "mouse.click.self",
+                            "slide": "bullview"
+                        },
+                        {
+                            "uid": "visibleSet",
+                            "hook": "slide.out",
+                            "paths": [
+                                "model"
+                            ],
+                            "target": [
+                                "bulllabel"
+                            ],
+                            "value": false
+                        }
+                    ]
+                },
+                {
+                    "uid": "light",
+                    "visible": true
+                },
+                {
+                    "uid": "floor",
+                    "visible": true
+                }
+            ]
+        }
+    ]
+}

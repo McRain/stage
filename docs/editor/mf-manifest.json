@@ -1,0 +1,121 @@
+{
+  "id": "3d.editor",
+  "name": "3d.editor",
+  "metaData": {
+    "name": "3d.editor",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.editor"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "3d.editor",
+    "pluginVersion": "0.11.4",
+    "prefetchInterface": false,
+    "publicPath": "/editor/"
+  },
+  "shared": [
+    {
+      "id": "3d.editor:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [
+            "654.3b27d5f2.chunk.js"
+          ],
+          "sync": [
+            "vendors-27545368.b2561cfb.js",
+            "vendors-eaa1e0b2.ce8078ab.js",
+            "vendors-121455fa.d05e23b3.js",
+            "vendors-17c34557.8aa2f42e.js",
+            "main-bde52cb3.230fce32.js",
+            "main-f16aa68b.45245933.js",
+            "main-31743c5a.71a00a52.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "main-4f064d56.css",
+            "main-31743c5a.css"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3d.editor:three",
+      "name": "three",
+      "version": "0.176.0",
+      "singleton": true,
+      "requiredVersion": "^0.176.0",
+      "assets": {
+        "js": {
+          "async": [
+            "654.3b27d5f2.chunk.js"
+          ],
+          "sync": [
+            "vendors-121455fa.d05e23b3.js",
+            "vendors-27545368.b2561cfb.js",
+            "vendors-eaa1e0b2.ce8078ab.js",
+            "vendors-17c34557.8aa2f42e.js",
+            "main-bde52cb3.230fce32.js",
+            "main-f16aa68b.45245933.js",
+            "main-31743c5a.71a00a52.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "main-4f064d56.css",
+            "main-31743c5a.css"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3d.editor:vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "assets": {
+        "js": {
+          "async": [
+            "654.3b27d5f2.chunk.js"
+          ],
+          "sync": [
+            "vendors-27545368.b2561cfb.js",
+            "vendors-eaa1e0b2.ce8078ab.js",
+            "vendors-121455fa.d05e23b3.js",
+            "vendors-17c34557.8aa2f42e.js",
+            "main-bde52cb3.230fce32.js",
+            "main-f16aa68b.45245933.js",
+            "main-31743c5a.71a00a52.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "main-4f064d56.css",
+            "main-31743c5a.css"
+          ]
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": []
+}

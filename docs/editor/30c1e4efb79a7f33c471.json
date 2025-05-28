@@ -1,0 +1,48 @@
+[
+    {
+        "uid": "easy.glb",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/easy.glb",
+        "type": "gltf",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "cube.glb",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/cube.glb",
+        "type": "gltf",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "hexagon.glb",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/hexagon.glb",
+        "type": "gltf",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "hdr43",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/43d.hdr",
+        "type": "hdr"
+    },
+    {
+        "uid": "hdr48",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/48d.hdr",
+        "type": "hdr"
+    }
+]

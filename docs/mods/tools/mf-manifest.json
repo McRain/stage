@@ -1,0 +1,161 @@
+{
+  "id": "tools",
+  "name": "tools",
+  "metaData": {
+    "name": "tools",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.mods.tools"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "tools",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "/mods/tools/"
+  },
+  "shared": [
+    {
+      "id": "tools:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "tools:vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "tools",
+      "moduleName": "UNKNOWN",
+      "alias": "tools",
+      "entry": "/tools/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "tools:tools",
+      "name": "tools",
+      "assets": {
+        "js": {
+          "sync": [
+            "993.bundle.js"
+          ],
+          "async": [
+            "712.bundle.js",
+            "157.bundle.js",
+            "691.bundle.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": [
+            "712.css",
+            "157.css",
+            "691.css"
+          ]
+        }
+      },
+      "path": "./tools"
+    },
+    {
+      "id": "tools:GoToUI",
+      "name": "GoToUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "955.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GoToUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./GoToUI"
+    },
+    {
+      "id": "tools:BackSlideUI",
+      "name": "BackSlideUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "330.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_BackSlideUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./BackSlideUI"
+    },
+    {
+      "id": "tools:NextSlideUI",
+      "name": "NextSlideUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "628.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_NextSlideUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./NextSlideUI"
+    }
+  ]
+}

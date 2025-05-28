@@ -1,0 +1,256 @@
+{
+  "id": "tweens",
+  "name": "tweens",
+  "metaData": {
+    "name": "tweens",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.mod.tweens"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "tweens",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "/mods/tweens/"
+  },
+  "shared": [
+    {
+      "id": "tweens:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "tweens:@tweenjs/tween.js",
+      "name": "@tweenjs/tween.js",
+      "version": "25.0.0",
+      "singleton": true,
+      "requiredVersion": "^25.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "tweens:three",
+      "name": "three",
+      "version": "0.176.0",
+      "singleton": true,
+      "requiredVersion": "^0.176.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "tweens:vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "tweens",
+      "moduleName": "TweenScaleUI",
+      "alias": "tweens",
+      "entry": "/tweens/mod.mf.js"
+    },
+    {
+      "federationContainerName": "tweens",
+      "moduleName": "TweenPosUI",
+      "alias": "tweens",
+      "entry": "/tweens/mod.mf.js"
+    },
+    {
+      "federationContainerName": "tweens",
+      "moduleName": "TweenRotateUI",
+      "alias": "tweens",
+      "entry": "/tweens/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "tweens:tweens",
+      "name": "tweens",
+      "assets": {
+        "js": {
+          "sync": [
+            "908.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./tweens"
+    },
+    {
+      "id": "tweens:TweenScaleUI",
+      "name": "TweenScaleUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "479.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TweenScaleUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./TweenScaleUI"
+    },
+    {
+      "id": "tweens:TweenScale",
+      "name": "TweenScale",
+      "assets": {
+        "js": {
+          "sync": [
+            "261.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./TweenScale"
+    },
+    {
+      "id": "tweens:TweenPosUI",
+      "name": "TweenPosUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "927.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TweenPosUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./TweenPosUI"
+    },
+    {
+      "id": "tweens:TweenPos",
+      "name": "TweenPos",
+      "assets": {
+        "js": {
+          "sync": [
+            "637.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./TweenPos"
+    },
+    {
+      "id": "tweens:TweenRotateUI",
+      "name": "TweenRotateUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "234.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TweenRotateUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./TweenRotateUI"
+    },
+    {
+      "id": "tweens:TweenRotate",
+      "name": "TweenRotate",
+      "assets": {
+        "js": {
+          "sync": [
+            "84.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./TweenRotate"
+    }
+  ]
+}

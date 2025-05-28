@@ -1,0 +1,136 @@
+{
+  "id": "textmesh",
+  "name": "textmesh",
+  "metaData": {
+    "name": "textmesh",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.mods.textmesh"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "textmesh",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "/mods/textmesh/"
+  },
+  "shared": [
+    {
+      "id": "textmesh:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "textmesh:three",
+      "name": "three",
+      "version": "0.176.0",
+      "singleton": true,
+      "requiredVersion": "^0.176.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "textmesh:vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "textmesh",
+      "moduleName": "TextMeshUI",
+      "alias": "textmesh",
+      "entry": "/textmesh/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "textmesh:textmesh",
+      "name": "textmesh",
+      "assets": {
+        "js": {
+          "sync": [
+            "128.bundle.js",
+            "38.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./textmesh"
+    },
+    {
+      "id": "textmesh:TextMeshUI",
+      "name": "TextMeshUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "412.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_TextMeshUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./TextMeshUI"
+    }
+  ]
+}
