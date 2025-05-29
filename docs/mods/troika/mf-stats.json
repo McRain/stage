@@ -1,0 +1,166 @@
+{
+  "id": "troika",
+  "name": "troika",
+  "metaData": {
+    "name": "troika",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.mods.textmesh"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "troika",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "/mods/troika/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "shareScope": "default",
+      "import": "@reneos/app",
+      "eager": true,
+      "shareKey": "@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "id": "troika:@reneos/app",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./troika"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.176.0",
+      "shareScope": "default",
+      "import": "three",
+      "shareKey": "three",
+      "eager": true,
+      "name": "three",
+      "version": "0.176.0",
+      "id": "troika:three",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "shareScope": "default",
+      "import": "vue",
+      "shareKey": "vue",
+      "eager": true,
+      "name": "vue",
+      "version": "3.5.13",
+      "id": "troika:vue",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./troika"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "troika",
+      "consumingFederationContainerName": "troika",
+      "federationContainerName": "troika",
+      "moduleName": "TroikaText",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/troika/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./troika",
+      "id": "troika:troika",
+      "name": "troika",
+      "requires": [
+        "@reneos/app",
+        "vue"
+      ],
+      "file": "src\\index.mf.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "183.bundle.js",
+            "226.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./troikaUI",
+      "id": "troika:troikaUI",
+      "name": "troikaUI",
+      "requires": [],
+      "file": "src\\inspector\\troikaUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "464.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_troikaUI.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}
