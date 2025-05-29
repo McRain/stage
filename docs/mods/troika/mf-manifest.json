@@ -1,0 +1,136 @@
+{
+  "id": "troika",
+  "name": "troika",
+  "metaData": {
+    "name": "troika",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.mods.textmesh"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "troika",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "/mods/troika/"
+  },
+  "shared": [
+    {
+      "id": "troika:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "troika:three",
+      "name": "three",
+      "version": "0.176.0",
+      "singleton": true,
+      "requiredVersion": "^0.176.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "troika:vue",
+      "name": "vue",
+      "version": "3.5.13",
+      "singleton": true,
+      "requiredVersion": "^3.5.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "troika",
+      "moduleName": "TroikaText",
+      "alias": "troika",
+      "entry": "/troika/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "troika:troika",
+      "name": "troika",
+      "assets": {
+        "js": {
+          "sync": [
+            "183.bundle.js",
+            "226.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./troika"
+    },
+    {
+      "id": "troika:troikaUI",
+      "name": "troikaUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "464.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_troikaUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./troikaUI"
+    }
+  ]
+}
