@@ -106,6 +106,7 @@
             "993.bundle.js"
           ],
           "async": [
+            "969.bundle.js",
             "712.bundle.js",
             "157.bundle.js",
             "691.bundle.js"
