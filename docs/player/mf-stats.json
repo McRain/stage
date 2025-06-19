@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.player",
-    "pluginVersion": "0.13.1",
+    "pluginVersion": "0.15.0",
     "prefetchInterface": false,
     "publicPath": "/player/"
   },

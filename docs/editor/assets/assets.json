@@ -44,5 +44,54 @@
         "uid": "hdr48",
         "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/48d.hdr",
         "type": "hdr"
+    },
+    {
+        "uid": "mat1",
+        "textures": {
+            "map": {
+                "uid": "dcomap"
+            },
+            "aoMap": {
+                "uid": "aomap"
+            },
+            "roughnessMap": {
+                "uid": "roughnessmap"
+            },
+            "normalMap": {
+                "uid": "normalmap"
+            },
+            "lightMap": {
+                "uid": "lightmap"
+            },
+            "envMap": {
+                "uid": "hdrscene"
+            }
+        },
+        "type": "material"
+    },
+    {
+        "uid": "lightmap",
+        "type": "texture",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/DarkOceanTiles01_1K_Height.png"
+    },
+    {
+        "uid": "normalmap",
+        "type": "texture",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/DarkOceanTiles01_1K_Normal.png"
+    },
+    {
+        "uid": "roughnessmap",
+        "type": "texture",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/DarkOceanTiles01_1K_Roughness.png"
+    },
+    {
+        "uid": "aomap",
+        "type": "texture",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/DarkOceanTiles01_1K_AO.png"
+    },
+    {
+        "uid": "dcomap",
+        "type": "texture",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/DarkOceanTiles01_1K_BaseColor.png"
     }
 ]
