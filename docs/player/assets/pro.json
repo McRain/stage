@@ -1,0 +1,423 @@
+{
+    "actions": [
+        {
+            "id": "GoTo1749914565193",
+            "name": "new GoTo",
+            "slide": 1,
+            "type": "GoTo",
+            "group": "base",
+            "uid": "GoTo1749914565193"
+        },
+        {
+            "id": "GoTo1749922923069",
+            "name": "Go 0",
+            "slide": 0,
+            "type": "GoTo",
+            "group": "base",
+            "uid": "GoTo1749922923069"
+        },
+        {
+            "id": "TweenPos1749663378711",
+            "name": "New Tween Position",
+            "from": {
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "to": {
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "delay": 0,
+            "time": 500,
+            "easing": "Circular.InOut",
+            "repeat": 0,
+            "yoyo": true,
+            "type": "TweenPos",
+            "group": "tweens",
+            "uid": "TweenPos1749663378711",
+            "to.type": "relative"
+        },
+        {
+            "id": "TweenRotate1749931083362",
+            "name": "New Tween Rotation",
+            "from": {
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "to": {
+                "value": {
+                    "x": 0,
+                    "y": 359,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "delay": 0,
+            "time": 1000,
+            "easing": "Sinusoidal.InOut",
+            "repeat": 0,
+            "yoyo": true,
+            "type": "TweenRotate",
+            "group": "tweens",
+            "uid": "TweenRotate1749931083362"
+        },
+        {
+            "id": "TweenScale1749926294775",
+            "name": "New Tween Scale",
+            "from": {
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "to": {
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "delay": 0,
+            "time": 300,
+            "easing": "Quintic.InOut",
+            "repeat": 0,
+            "yoyo": true,
+            "type": "TweenScale",
+            "group": "tweens",
+            "uid": "TweenScale1749926294775"
+        }
+    ],
+    "assets": [
+        {
+            "id": "asset_1749738025717",
+            "name": "",
+            "type": "gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/bull_head_1k.gltf",
+            "clone": true,
+            "uid": "asset_1749738025717",
+            "envMap": "hdr48",
+            "states": {
+                "base": {
+                    "actions": []
+                }
+            }
+        },
+        {
+            "uid": "cube.glb",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/cube.glb",
+            "type": "gltf",
+            "parameters": {
+                "clone": true
+            },
+            "shadow": {
+                "cast": false,
+                "receive": false
+            }
+        },
+        {
+            "uid": "easy.glb",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/easy.glb",
+            "type": "gltf",
+            "parameters": {
+                "clone": true
+            },
+            "shadow": {
+                "cast": false,
+                "receive": false
+            }
+        },
+        {
+            "uid": "hdr43",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/43d.hdr",
+            "type": "hdr"
+        },
+        {
+            "uid": "hdr48",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/48d.hdr",
+            "type": "hdr"
+        },
+        {
+            "id": "hexagon.glb",
+            "uid": "hexagon.glb",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/hexagon.glb",
+            "type": "gltf",
+            "parameters": {
+                "clone": true
+            },
+            "shadow": {
+                "cast": false,
+                "receive": false
+            },
+            "clone": true,
+            "envMap": "hdr48",
+            "states": {
+                "base": {
+                    "actions": []
+                }
+            }
+        }
+    ],
+    "elements": [],
+    "models": [
+        {
+            "uid": "camroot",
+            "type": "block",
+            "props": {},
+            "actions": [],
+            "path": "camroot",
+            "paths": [
+                "camroot"
+            ],
+            "parent": null,
+            "states": {
+                "base": {
+                    "actions": [],
+                    "position": {
+                        "x": 0,
+                        "y": 5,
+                        "z": 10
+                    },
+                    "visible": true,
+                    "rotation": {
+                        "x": -0.3316125578789226,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "sl1749667558072": {
+                    "actions": [
+                        {
+                            "uid": "TweenPos1749663378711",
+                            "hook": "slide.in"
+                        }
+                    ],
+                    "position": {
+                        "x": 1.5206171009166436,
+                        "y": -2.1304822727096377,
+                        "z": 3.257554412969908
+                    }
+                },
+                "sl1749760684245": {
+                    "actions": [],
+                    "visible": true,
+                    "position": {
+                        "x": 0,
+                        "y": 5,
+                        "z": 10
+                    },
+                    "rotation": {
+                        "x": -0.3141592653589793,
+                        "y": 0,
+                        "z": 0
+                    }
+                }
+            },
+            "id": "camroot",
+            "name": "camroot",
+            "assets": []
+        },
+        {
+            "uid": "maincam",
+            "type": "PerspectiveCamera",
+            "path": "camroot.maincam",
+            "paths": [
+                "camroot",
+                "maincam"
+            ],
+            "parent": "camroot",
+            "props": {},
+            "actions": [],
+            "states": {
+                "base": {
+                    "actions": [],
+                    "fov": 60,
+                    "visible": true
+                },
+                "sl1749667558072": {
+                    "actions": []
+                }
+            },
+            "id": "maincam",
+            "name": "maincam",
+            "assets": []
+        },
+        {
+            "name": "model1749918090654",
+            "paths": [
+                "model1749918090654"
+            ],
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "states": {
+                "base": {
+                    "actions": [
+                        {
+                            "uid": "GoTo1749914565193",
+                            "hook": "mouse.click"
+                        },
+                        {
+                            "uid": "TweenPos1749663378711",
+                            "hook": "slide.in"
+                        }
+                    ],
+                    "position": {
+                        "x": 0,
+                        "y": -2.503208761774769,
+                        "z": 0
+                    },
+                    "visible": true
+                },
+                "sl1749760684245": {
+                    "actions": [
+                        {
+                            "uid": "TweenPos1749663378711",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "GoTo1749922923069",
+                            "hook": "mouse.click"
+                        }
+                    ],
+                    "visible": true,
+                    "position": {
+                        "x": 1.0245954887537514,
+                        "y": 2.3896091375710315,
+                        "z": -6.86671587904196
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "model1749918090654",
+            "assets": [
+                {
+                    "uid": "hexagon.glb"
+                }
+            ],
+            "id": "model1749918090654"
+        },
+        {
+            "name": "model1749924832699",
+            "paths": [
+                "model1749918090654",
+                "model1749924832699"
+            ],
+            "parent": "model1749918090654",
+            "actions": [],
+            "props": {},
+            "states": {
+                "base": {
+                    "actions": [
+                        {
+                            "uid": "TweenPos1749663378711",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "TweenScale1749926294775",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "TweenRotate1749931083362",
+                            "hook": "slide.in"
+                        }
+                    ],
+                    "scale": {
+                        "x": 5,
+                        "y": 5,
+                        "z": 5
+                    },
+                    "position": {
+                        "x": 1.621495894100724,
+                        "y": 0.19856646332821262,
+                        "z": 0
+                    }
+                },
+                "sl1749760684245": {
+                    "actions": [
+                        {
+                            "uid": "TweenPos1749663378711",
+                            "hook": "slide.in"
+                        },
+                        {
+                            "uid": "TweenScale1749926294775",
+                            "hook": "slide.in"
+                        }
+                    ],
+                    "visible": true,
+                    "scale": {
+                        "x": 10,
+                        "y": 10,
+                        "z": 10
+                    },
+                    "position": {
+                        "x": -1.690277587039156,
+                        "y": 0.1,
+                        "z": 0
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "model1749924832699",
+            "assets": [
+                {
+                    "uid": "asset_1749738025717"
+                }
+            ],
+            "id": "model1749924832699"
+        }
+    ],
+    "modules": [
+        {
+            "uid": "tweens",
+            "name": "tweens",
+            "entry": "/mods/tweens/mf.js",
+            "index": "tweens"
+        }
+    ],
+    "project": [],
+    "slides": [
+        {
+            "uid": "base",
+            "name": "Base",
+            "path": "base",
+            "paths": [
+                "base"
+            ],
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "camera": {
+                "path": "camroot.maincam"
+            },
+            "props": {},
+            "id": "base"
+        },
+        {
+            "name": "2",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "camera": {},
+            "uid": "sl1749760684245",
+            "props": {},
+            "id": "sl1749760684245"
+        }
+    ]
+}

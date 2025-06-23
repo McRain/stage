@@ -76,9 +76,9 @@
         }
       },
       "usedIn": [
+        "./TweenRotate",
         "./tweens",
         "./TweenPos",
-        "./TweenRotate",
         "./TweenScale"
       ]
     },
