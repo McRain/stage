@@ -573,7 +573,7 @@ to { transform: rotate(360deg);
 
 
 .layer {
-&[data-v-b89dc858] {
+&[data-v-24c1de18] {
     pointer-events: all;
     cursor: pointer;
     text-transform: uppercase;    
@@ -587,7 +587,7 @@ to { transform: rotate(360deg);
     display: flex;
     flex-direction: column;
 }
-span[data-v-b89dc858] {
+span[data-v-24c1de18] {
         letter-spacing: 0;
         display: block;
         margin: 0 auto;
@@ -596,23 +596,23 @@ span[data-v-b89dc858] {
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: aitf-b89dc858 80s linear infinite;
+        animation: aitf-24c1de18 80s linear infinite;
         transform: translate3d(0, 0, 0);
         backface-visibility: hidden;
 }
-p[data-v-b89dc858]{
+p[data-v-24c1de18]{
             font-size: 1em;
 }
 }
-.fade-enter-active[data-v-b89dc858],
-.fade-leave-active[data-v-b89dc858] {
+.fade-enter-active[data-v-24c1de18],
+.fade-leave-active[data-v-24c1de18] {
     transition: opacity 0.5s ease-in-out;
 }
-.fade-enter-from[data-v-b89dc858],
-.fade-leave-to[data-v-b89dc858] {
+.fade-enter-from[data-v-24c1de18],
+.fade-leave-to[data-v-24c1de18] {
     opacity: 0;
 }
-@keyframes aitf-b89dc858 {
+@keyframes aitf-24c1de18 {
 0% {
         background-position: 0% 50%;
 }

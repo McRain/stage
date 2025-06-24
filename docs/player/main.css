@@ -72,7 +72,7 @@ img[data-v-da6f1024] {
 	}
 }
 
-#myDiv[data-v-53172b34] {
+#myDiv[data-v-77b2464b] {
     position: absolute;
     top: 100px;
     left: 200px;
@@ -80,7 +80,7 @@ img[data-v-da6f1024] {
     height: 50px;
     background-color: red;
 }
-#svg-container[data-v-53172b34] {
+#svg-container[data-v-77b2464b] {
     position: absolute;
     top: 0;
     left: 0;
@@ -89,11 +89,11 @@ img[data-v-da6f1024] {
     pointer-events: none;
     /* Чтобы SVG не перехватывал клики */
 }
-#myLine[data-v-53172b34] {
+#myLine[data-v-77b2464b] {
     stroke: blue;
     stroke-width: 2;
 }
-.label[data-v-53172b34] {
+.label[data-v-77b2464b] {
     perspective: 500px;
     pointer-events: all;
     font-size: 2em;
@@ -102,7 +102,7 @@ img[data-v-da6f1024] {
     height: 2px;
     background-color: #2C2F48;
 }
-.element[data-v-53172b34] {
+.element[data-v-77b2464b] {
 
     border: 1px solid rgba(0, 0, 0, 0.25);
     padding: 5px;
@@ -111,7 +111,7 @@ img[data-v-da6f1024] {
     flex-direction: column;
 }
 .container {
-&[data-v-53172b34]{
+&[data-v-77b2464b]{
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -120,7 +120,7 @@ img[data-v-da6f1024] {
     pointer-events: none;
     }
 .lefttop {
-&[data-v-53172b34]{
+&[data-v-77b2464b]{
         position: absolute;
         left: 0;
         top: 0;
@@ -129,17 +129,18 @@ img[data-v-da6f1024] {
         gap: 10px;
         padding: 10px;
         pointer-events: all;
+        background-color: #0e0f16;
 
         opacity: 0.1;
         }
-.menutools[data-v-53172b34] {
+.menutools[data-v-77b2464b] {
             cursor: pointer;
 }
-&[data-v-53172b34]:hover {
+&[data-v-77b2464b]:hover {
             opacity: 0.5;
 }
 }
-.sliders[data-v-53172b34] {
+.sliders[data-v-77b2464b] {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -148,14 +149,14 @@ img[data-v-da6f1024] {
 }
 
 /* Боковая панель */
-.sidebar[data-v-53172b34] {
+.sidebar[data-v-77b2464b] {
     width: 68px;
     background-color: rgba(29, 32, 62, 0.5);
     padding-left: 11px;
     overflow: hidden;
     pointer-events: all;
 }
-.sidebar .menu[data-v-53172b34] {
+.sidebar .menu[data-v-77b2464b] {
     position: absolute;
     top: 0;
     left: 0;
@@ -170,7 +171,7 @@ img[data-v-da6f1024] {
     flex-direction: column;
     gap: 50px;
 }
-.sidebar .menublur[data-v-53172b34] {
+.sidebar .menublur[data-v-77b2464b] {
     position: absolute;
     top: 0;
     left: 0;
@@ -180,23 +181,23 @@ img[data-v-da6f1024] {
     width: 67px;
     filter: blur(5px);
 }
-.sidebar .menu .menuelement[data-v-53172b34] {
+.sidebar .menu .menuelement[data-v-77b2464b] {
     width: 40px;
     height: 40px;
     background-image: url(/player/assets/5bf54e94011af41adb2c.png);
 }
-.sidebar .menu .menuelements[data-v-53172b34] {
+.sidebar .menu .menuelements[data-v-77b2464b] {
     width: 60px;
     height: 60px;
     background-image: url(/player/assets/5bf54e94011af41adb2c.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sidebar .menu .menuelement[data-v-53172b34]:hover {
+.sidebar .menu .menuelement[data-v-77b2464b]:hover {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
-.slides[data-v-53172b34] {
+.slides[data-v-77b2464b] {
     position: absolute;
     bottom: 10px;
     left: 150px;
@@ -204,10 +205,10 @@ img[data-v-da6f1024] {
     pointer-events: all;
 }
 .main-content {
-&[data-v-53172b34]{
+&[data-v-77b2464b]{
     position: relative;
     }
-.camlist[data-v-53172b34] {
+.camlist[data-v-77b2464b] {
         position: absolute;
         top: 0;
         right: 0;
@@ -218,7 +219,7 @@ img[data-v-da6f1024] {
 
 
 /* Контейнер для карточек */
-.card-container[data-v-53172b34] {
+.card-container[data-v-77b2464b] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /* Адаптивные столбцы */
@@ -226,25 +227,25 @@ img[data-v-da6f1024] {
 }
 
 /* Карточки */
-.card[data-v-53172b34] {
+.card[data-v-77b2464b] {
     background-color: #222;
     border-radius: 10px;
     padding: 20px;
 }
-.card-large[data-v-53172b34] {
+.card-large[data-v-77b2464b] {
     grid-column: span 2;
     /* Занимает 2 столбца */
 }
 
 /* Правая панель */
 .right-sidebar {
-&[data-v-53172b34]{
+&[data-v-77b2464b]{
     width: 200px;
     background-color: #2C2F48;
     overflow-y: auto;
     }
 .right-slider {
-&[data-v-53172b34]{
+&[data-v-77b2464b]{
         pointer-events: all;
         display: flex;
         flex-direction: column;
@@ -252,14 +253,14 @@ img[data-v-da6f1024] {
         width: 100%;
         padding: 5px;
         }
-.side-card[data-v-53172b34] {
+.side-card[data-v-77b2464b] {
             background-color: rgba(255, 255, 255, 0.3);
             min-height: 10px;
             border-radius: 5%;
             border: 1px solid #0e0f16;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.line[data-v-53172b34] {
+.line[data-v-77b2464b] {
             border: 1px solid #202235;
 }
 }
@@ -267,7 +268,7 @@ img[data-v-da6f1024] {
 
 
 .layer {
-&[data-v-4305df1d] {
+&[data-v-6d69e786] {
     pointer-events: all;
     cursor: pointer;
     text-transform: uppercase;    
@@ -281,7 +282,7 @@ img[data-v-da6f1024] {
     display: flex;
     flex-direction: column;
 }
-span[data-v-4305df1d] {
+span[data-v-6d69e786] {
         letter-spacing: 0;
         display: block;
         margin: 0 auto;
@@ -290,23 +291,23 @@ span[data-v-4305df1d] {
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: aitf-4305df1d 80s linear infinite;
+        animation: aitf-6d69e786 80s linear infinite;
         transform: translate3d(0, 0, 0);
         backface-visibility: hidden;
 }
-p[data-v-4305df1d]{
+p[data-v-6d69e786]{
             font-size: 1em;
 }
 }
-.fade-enter-active[data-v-4305df1d],
-.fade-leave-active[data-v-4305df1d] {
+.fade-enter-active[data-v-6d69e786],
+.fade-leave-active[data-v-6d69e786] {
     transition: opacity 0.5s ease-in-out;
 }
-.fade-enter-from[data-v-4305df1d],
-.fade-leave-to[data-v-4305df1d] {
+.fade-enter-from[data-v-6d69e786],
+.fade-leave-to[data-v-6d69e786] {
     opacity: 0;
 }
-@keyframes aitf-4305df1d {
+@keyframes aitf-6d69e786 {
 0% {
         background-position: 0% 50%;
 }
