@@ -1,0 +1,115 @@
+{
+  "id": "vueuimod",
+  "name": "vueuimod",
+  "metaData": {
+    "name": "vueuimod",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "@reneos/3d.mod.vueui"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "vueuimod",
+    "pluginVersion": "0.16.0",
+    "prefetchInterface": false,
+    "publicPath": "/mods/vueui/"
+  },
+  "shared": [
+    {
+      "id": "vueuimod:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "vueuimod:vue",
+      "name": "vue",
+      "version": "3.5.17",
+      "singleton": true,
+      "requiredVersion": "^3.5.17",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "vueuimod",
+      "moduleName": "VueCard",
+      "alias": "vueuiremote",
+      "entry": "http://localhost/mods/vueui/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "vueuimod:vueui",
+      "name": "vueui",
+      "assets": {
+        "js": {
+          "sync": [
+            "118.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./vueui"
+    },
+    {
+      "id": "vueuimod:VueCard",
+      "name": "VueCard",
+      "assets": {
+        "js": {
+          "sync": [
+            "698.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_VueCard.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./VueCard"
+    }
+  ]
+}

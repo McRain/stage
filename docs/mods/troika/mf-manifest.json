@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "troika",
-    "pluginVersion": "0.13.1",
+    "pluginVersion": "0.16.0",
     "prefetchInterface": false,
     "publicPath": "/mods/troika/"
   },
@@ -48,9 +48,9 @@
     {
       "id": "troika:three",
       "name": "three",
-      "version": "0.176.0",
+      "version": "0.178.0",
       "singleton": true,
-      "requiredVersion": "^0.176.0",
+      "requiredVersion": "^0.178.0",
       "assets": {
         "js": {
           "async": [],
@@ -68,9 +68,9 @@
     {
       "id": "troika:vue",
       "name": "vue",
-      "version": "3.5.13",
+      "version": "3.5.17",
       "singleton": true,
-      "requiredVersion": "^3.5.13",
+      "requiredVersion": "^3.5.17",
       "assets": {
         "js": {
           "async": [],

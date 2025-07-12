@@ -1,0 +1,179 @@
+{
+    "actions": [
+        {
+            "id": "GsapPosition1751212994052",
+            "name": "NewGsapAnimation",
+            "from": {
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "to": {
+                "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "type": "relative"
+            },
+            "delay": 0,
+            "time": 1,
+            "easing": "none",
+            "repeat": 0,
+            "yoyo": true,
+            "nowait": false,
+            "type": "GsapPosition",
+            "group": "gsap",
+            "uid": "GsapPosition1751212994052"
+        }
+    ],
+    "assets": [
+        {
+            "id": "asset_1751213056252",
+            "name": "Table",
+            "type": "gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/round_wooden_table_02_1k.gltf",
+            "clone": true,
+            "uid": "asset_1751213056252",
+            "envMap": "asset_1751214235574"
+        },
+        {
+            "id": "asset_1751214235574",
+            "name": "hdr",
+            "type": "hdr",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/kloofendal_43d_clear_puresky_1k.hdr",
+            "uid": "asset_1751214235574"
+        }
+    ],
+    "models": [
+        {
+            "name": "Новый элемент",
+            "paths": [
+                "Element1751213079517"
+            ],
+            "path": "Element1751213079517",
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1751213069092": {
+                    "actions": [],
+                    "intensity": 2.1
+                }
+            },
+            "type": "AmbientLight",
+            "uid": "Element1751213079517",
+            "assets": [],
+            "id": "Element1751213079517"
+        },
+        {
+            "name": "Cam",
+            "paths": [
+                "Element1751213269619"
+            ],
+            "path": "Element1751213269619",
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1751213069092": {
+                    "actions": [],
+                    "position": {
+                        "x": 0,
+                        "y": 2,
+                        "z": 5
+                    }
+                },
+                "sl1751213101467": {
+                    "actions": [],
+                    "position": {
+                        "x": 0,
+                        "y": 2,
+                        "z": 5
+                    }
+                }
+            },
+            "type": "PerspectiveCamera",
+            "uid": "Element1751213269619",
+            "assets": [],
+            "id": "Element1751213269619"
+        },
+        {
+            "name": "Table1751213071800",
+            "paths": [
+                "Table1751213071800"
+            ],
+            "path": "Table1751213071800",
+            "parent": null,
+            "actions": [
+                {
+                    "uid": "GsapPosition1751212994052",
+                    "hook": "slide.in"
+                }
+            ],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1751213069092": {
+                    "actions": [],
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "sl1751213101467": {
+                    "actions": [],
+                    "position": {
+                        "x": 0,
+                        "y": 2,
+                        "z": 0
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "Table1751213071800",
+            "assets": [
+                {
+                    "uid": "asset_1751213056252"
+                }
+            ],
+            "id": "Table1751213071800"
+        }
+    ],
+    "modules": [],
+    "project": [],
+    "slides": [
+        {
+            "name": "Base",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "camera": {
+                "path": "Element1751213269619"
+            },
+            "uid": "sl1751213069092",
+            "props": {},
+            "id": "sl1751213069092"
+        },
+        {
+            "name": "2",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "camera": {
+                "path": null
+            },
+            "uid": "sl1751213101467",
+            "props": {},
+            "id": "sl1751213101467"
+        }
+    ]
+}

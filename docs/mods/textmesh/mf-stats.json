@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "textmesh",
-    "pluginVersion": "0.13.1",
+    "pluginVersion": "0.16.0",
     "prefetchInterface": false,
     "publicPath": "/mods/textmesh/"
   },
@@ -54,13 +54,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.176.0",
+      "requiredVersion": "^0.178.0",
       "shareScope": "default",
       "import": "three",
       "shareKey": "three",
       "eager": true,
       "name": "three",
-      "version": "0.176.0",
+      "version": "0.178.0",
       "id": "textmesh:three",
       "assets": {
         "js": {
@@ -79,13 +79,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.13",
+      "requiredVersion": "^3.5.17",
       "shareScope": "default",
       "import": "vue",
       "shareKey": "vue",
       "eager": true,
       "name": "vue",
-      "version": "3.5.13",
+      "version": "3.5.17",
       "id": "textmesh:vue",
       "assets": {
         "js": {
@@ -108,13 +108,11 @@
   "remotes": [
     {
       "alias": "textmesh",
-      "consumingFederationContainerName": "textmesh",
+      "moduleName": "UNKNOWN",
+      "version": "/textmesh/mod.mf.js",
       "federationContainerName": "textmesh",
-      "moduleName": "TextMeshUI",
-      "usedIn": [
-        "src/index.mf.js"
-      ],
-      "version": "/textmesh/mod.mf.js"
+      "consumingFederationContainerName": "textmesh",
+      "usedIn": []
     }
   ],
   "exposes": [

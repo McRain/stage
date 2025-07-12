@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.editor",
-    "pluginVersion": "0.11.4",
+    "pluginVersion": "0.16.0",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
@@ -37,101 +37,62 @@
       "id": "3d.editor:@reneos/app",
       "assets": {
         "js": {
-          "async": [
-            "145.a6bc9247.chunk.js",
-            "189.536e1ab8.chunk.js"
-          ],
+          "async": [],
           "sync": [
-            "vendors-27545368.9ddd7574.js",
-            "vendors-eaa1e0b2.682d3b35.js",
-            "vendors-121455fa.876b86c3.js",
-            "vendors-17c34557.e461d1b9.js",
-            "main-bde52cb3.72a0a2c4.js",
-            "main-8ed0fac5.14484271.js",
-            "main-f16aa68b.aacb5e4d.js",
-            "main-31743c5a.45dfe5d2.js"
+            "vendors-27545368.7146696b.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": [
-            "main-4f064d56.css",
-            "main-31743c5a.css"
-          ]
+          "sync": []
         }
       },
       "usedIn": []
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.176.0",
+      "requiredVersion": "^0.178.0",
       "shareScope": "default",
       "import": "three",
       "eager": true,
       "shareKey": "three",
       "name": "three",
-      "version": "0.176.0",
+      "version": "0.178.0",
       "id": "3d.editor:three",
       "assets": {
         "js": {
-          "async": [
-            "145.a6bc9247.chunk.js",
-            "189.536e1ab8.chunk.js"
-          ],
+          "async": [],
           "sync": [
-            "vendors-121455fa.876b86c3.js",
-            "vendors-27545368.9ddd7574.js",
-            "vendors-eaa1e0b2.682d3b35.js",
-            "vendors-17c34557.e461d1b9.js",
-            "main-bde52cb3.72a0a2c4.js",
-            "main-8ed0fac5.14484271.js",
-            "main-f16aa68b.aacb5e4d.js",
-            "main-31743c5a.45dfe5d2.js"
+            "vendors-121455fa.98e76574.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": [
-            "main-4f064d56.css",
-            "main-31743c5a.css"
-          ]
+          "sync": []
         }
       },
       "usedIn": []
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.13",
+      "requiredVersion": "^3.5.17",
       "shareScope": "default",
       "import": "vue",
       "eager": true,
       "shareKey": "vue",
       "name": "vue",
-      "version": "3.5.13",
+      "version": "3.5.17",
       "id": "3d.editor:vue",
       "assets": {
         "js": {
-          "async": [
-            "145.a6bc9247.chunk.js",
-            "189.536e1ab8.chunk.js"
-          ],
+          "async": [],
           "sync": [
-            "vendors-27545368.9ddd7574.js",
-            "vendors-eaa1e0b2.682d3b35.js",
-            "vendors-121455fa.876b86c3.js",
-            "vendors-17c34557.e461d1b9.js",
-            "main-bde52cb3.72a0a2c4.js",
-            "main-8ed0fac5.14484271.js",
-            "main-f16aa68b.aacb5e4d.js",
-            "main-31743c5a.45dfe5d2.js"
+            "vendors-27545368.7146696b.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": [
-            "main-4f064d56.css",
-            "main-31743c5a.css"
-          ]
+          "sync": []
         }
       },
       "usedIn": []

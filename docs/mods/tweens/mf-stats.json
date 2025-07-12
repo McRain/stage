@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "tweens",
-    "pluginVersion": "0.13.1",
+    "pluginVersion": "0.15.0",
     "prefetchInterface": false,
     "publicPath": "/mods/tweens/"
   },
@@ -50,36 +50,6 @@
       },
       "usedIn": [
         "./tweens"
-      ]
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^25.0.0",
-      "shareScope": "default",
-      "import": "@tweenjs/tween.js",
-      "eager": true,
-      "shareKey": "@tweenjs/tween.js",
-      "name": "@tweenjs/tween.js",
-      "version": "25.0.0",
-      "id": "tweens:@tweenjs/tween.js",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "mf.js",
-            "bundle.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": [
-        "./TweenRotate",
-        "./tweens",
-        "./TweenPos",
-        "./TweenScale"
       ]
     },
     {
@@ -176,13 +146,13 @@
       "name": "tweens",
       "requires": [
         "@reneos/app",
-        "vue",
-        "@tweenjs/tween.js"
+        "vue"
       ],
       "file": "src\\index.mf.js",
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "908.bundle.js"
           ],
           "async": []
@@ -202,6 +172,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "479.bundle.js"
           ],
           "async": []
@@ -218,13 +189,12 @@
       "path": "./TweenScale",
       "id": "tweens:TweenScale",
       "name": "TweenScale",
-      "requires": [
-        "@tweenjs/tween.js"
-      ],
+      "requires": [],
       "file": "src\\tweens\\TweenScale.js",
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "261.bundle.js"
           ],
           "async": []
@@ -244,6 +214,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "927.bundle.js"
           ],
           "async": []
@@ -260,13 +231,12 @@
       "path": "./TweenPos",
       "id": "tweens:TweenPos",
       "name": "TweenPos",
-      "requires": [
-        "@tweenjs/tween.js"
-      ],
+      "requires": [],
       "file": "src\\tweens\\TweenPos.js",
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "637.bundle.js"
           ],
           "async": []
@@ -286,6 +256,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "234.bundle.js"
           ],
           "async": []
@@ -303,13 +274,13 @@
       "id": "tweens:TweenRotate",
       "name": "TweenRotate",
       "requires": [
-        "@tweenjs/tween.js",
         "three"
       ],
       "file": "src\\tweens\\TweenRotate.js",
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "84.bundle.js"
           ],
           "async": []
