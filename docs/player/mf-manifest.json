@@ -5,7 +5,7 @@
     "name": "3d.player",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.1",
+      "buildVersion": "0.0.2",
       "buildName": "@reneos/3d.player"
     },
     "remoteEntry": {
