@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "tweens",
-    "pluginVersion": "0.13.1",
+    "pluginVersion": "0.15.0",
     "prefetchInterface": false,
     "publicPath": "/mods/tweens/"
   },
@@ -31,26 +31,6 @@
       "version": "1.0.6",
       "singleton": true,
       "requiredVersion": "^1.0.6",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "mf.js",
-            "bundle.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "tweens:@tweenjs/tween.js",
-      "name": "@tweenjs/tween.js",
-      "version": "25.0.0",
-      "singleton": true,
-      "requiredVersion": "^25.0.0",
       "assets": {
         "js": {
           "async": [],
@@ -133,6 +113,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "908.bundle.js"
           ],
           "async": []
@@ -150,6 +131,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "479.bundle.js"
           ],
           "async": []
@@ -169,6 +151,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "261.bundle.js"
           ],
           "async": []
@@ -186,6 +169,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "927.bundle.js"
           ],
           "async": []
@@ -205,6 +189,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "637.bundle.js"
           ],
           "async": []
@@ -222,6 +207,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "234.bundle.js"
           ],
           "async": []
@@ -241,6 +227,7 @@
       "assets": {
         "js": {
           "sync": [
+            "40.bundle.js",
             "84.bundle.js"
           ],
           "async": []
