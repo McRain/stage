@@ -5,7 +5,7 @@
     "name": "3d.editor",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.1",
+      "buildVersion": "0.0.2",
       "buildName": "@reneos/3d.editor"
     },
     "remoteEntry": {
@@ -35,7 +35,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.73334746.js"
+            "vendors-27545368.3b72bdb2.js"
           ]
         },
         "css": {
@@ -54,7 +54,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-121455fa.1e27577a.js"
+            "vendors-121455fa.b131cba4.js"
           ]
         },
         "css": {
@@ -73,7 +73,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.73334746.js"
+            "vendors-27545368.3b72bdb2.js"
           ]
         },
         "css": {
