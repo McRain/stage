@@ -495,7 +495,7 @@ to { transform: rotate(360deg);
 .slider[data-v-b3fc2cec]{position:absolute;background-color:rgba(71,55,116,.75);z-index:0;transition:all .35s}
 li[data-v-562df7a6]{display:flex;flex-direction:row;align-items:left}li span[data-v-562df7a6]{color:#bda4a4}li .child-list[data-v-562df7a6]{margin:0;padding:0;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start}li .child-list ul[data-v-562df7a6]{padding-inline-start:20px}
 
-.cardroot[data-v-a3d9ff12] {
+.cardroot[data-v-23e9bcc6] {
     position: absolute;
     height: 256px;
     width: 256px;
