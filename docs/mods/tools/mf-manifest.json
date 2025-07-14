@@ -46,6 +46,26 @@
       }
     },
     {
+      "id": "tools:three",
+      "name": "three",
+      "version": "0.178.0",
+      "singleton": true,
+      "requiredVersion": "^0.178.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "tools:vue",
       "name": "vue",
       "version": "3.5.17",
@@ -84,11 +104,12 @@
             "993.bundle.js"
           ],
           "async": [
-            "654.bundle.js",
-            "386.bundle.js",
+            "960.bundle.js",
+            "325.bundle.js",
             "609.bundle.js",
             "833.bundle.js",
-            "680.bundle.js"
+            "680.bundle.js",
+            "93.bundle.js"
           ]
         },
         "css": {

@@ -54,6 +54,31 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^0.178.0",
+      "shareScope": "default",
+      "import": "three",
+      "shareKey": "three",
+      "eager": true,
+      "name": "three",
+      "version": "0.178.0",
+      "id": "tools:three",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^3.5.17",
       "shareScope": "default",
       "import": "vue",
@@ -106,11 +131,12 @@
             "993.bundle.js"
           ],
           "async": [
-            "654.bundle.js",
-            "386.bundle.js",
+            "960.bundle.js",
+            "325.bundle.js",
             "609.bundle.js",
             "833.bundle.js",
-            "680.bundle.js"
+            "680.bundle.js",
+            "93.bundle.js"
           ]
         },
         "css": {
