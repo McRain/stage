@@ -89,6 +89,12 @@
   "remotes": [
     {
       "federationContainerName": "gsapmod",
+      "moduleName": "GsapFloatUI",
+      "alias": "gsapremote",
+      "entry": "http://localhost/mods/gsap/mod.mf.js"
+    },
+    {
+      "federationContainerName": "gsapmod",
       "moduleName": "GsapPositionUI",
       "alias": "gsapremote",
       "entry": "http://localhost/mods/gsap/mod.mf.js"
@@ -102,6 +108,12 @@
     {
       "federationContainerName": "gsapmod",
       "moduleName": "GsapScaleUI",
+      "alias": "gsapremote",
+      "entry": "http://localhost/mods/gsap/mod.mf.js"
+    },
+    {
+      "federationContainerName": "gsapmod",
+      "moduleName": "GsapTyperUI",
       "alias": "gsapremote",
       "entry": "http://localhost/mods/gsap/mod.mf.js"
     }

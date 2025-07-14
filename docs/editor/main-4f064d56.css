@@ -105,19 +105,20 @@ select[data-v-b91f8df2] {
 
 
 .treecontainer {
-&[data-v-2b5c1257] {
+&[data-v-7b20e99a] {
     display: flex;
     align-items: start;
     width: 100%;
     user-select: none;
     flex: 1;
+    overflow-y: auto;
 
     /* или фиксированную высоту, например 200px */
     min-height: 0;
     /* важно для правильной работы overflow в grid/flex */
     max-height: 100%;
 }
-.roottree[data-v-2b5c1257] {
+.roottree[data-v-7b20e99a] {
         width: 100%;
         /*max-width: 250px;*/
         display: flex;
@@ -295,6 +296,7 @@ button[data-v-539c25c2] {
 }
 }
 
+.hierarhy-view[data-v-5c278d93]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;height:100%}.focusedtree[data-v-5c278d93]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-5c278d93]{display:flex;gap:3px}.treeicon .svgicon[data-v-5c278d93]{cursor:pointer}.label[data-v-5c278d93]{cursor:pointer}
 
   
 /* Основные пункты меню */
@@ -382,19 +384,17 @@ button[data-v-539c25c2] {
 }
   
 
-.horizontal-menu[data-v-41d20d52] {
-    pointer-events: all;
-    background: #2c3e50;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 10px;
-    margin: 0;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    border-radius: 4px;
+.horizontal-menu[data-v-30250442] {
+  pointer-events: all;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  border-radius: 4px;
 }
-  
+
 
 .rotating-div {
   width: 100px;
@@ -756,6 +756,11 @@ img{
 }
 
 
+.text-align-editor select[data-v-57114c76] {
+    padding: 1px;
+}
+
+
 .labelField[data-v-45c328bf]{ 
   display: inline-block; /* или flex, но с min-width: 0 */
   overflow: hidden;
@@ -982,6 +987,37 @@ button[data-v-f859e98c] {
 .row[data-v-60cb851f] {
             display: grid;
             grid-template-columns: minmax(50px, 96px) minmax(128px, 1fr);
+}
+}
+}
+
+
+.pitem[data-v-a84bc2fe]{
+    font-size: 0.85em;
+}
+
+
+.container {
+&[data-v-7a7463f6] {
+    padding: 20px;
+    margin: auto;
+    min-width: 256px;
+    display: flex;
+    flex-direction: column;
+}
+.block {
+&[data-v-7a7463f6] {
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.label[data-v-7a7463f6]{
+            text-align: right;
+            padding-right: 10px;
+}
+.value[data-v-7a7463f6]{
 }
 }
 }
