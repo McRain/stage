@@ -36,38 +36,31 @@
         }
     },
     {
+        "uid": "hex2.gltf",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/hex2.gltf",
+        "type": "gltf",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
         "uid": "hdr43",
         "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/43d.hdr",
+        "type": "hdr"
+    },
+    {
+        "uid": "hdr",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/golden_gate_hills_1k.hdr",
         "type": "hdr"
     },
     {
         "uid": "hdr48",
         "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/48d.hdr",
         "type": "hdr"
-    },
-    {
-        "uid": "mat1",
-        "textures": {
-            "map": {
-                "uid": "dcomap"
-            },
-            "aoMap": {
-                "uid": "aomap"
-            },
-            "roughnessMap": {
-                "uid": "roughnessmap"
-            },
-            "normalMap": {
-                "uid": "normalmap"
-            },
-            "lightMap": {
-                "uid": "lightmap"
-            },
-            "envMap": {
-                "uid": "hdrscene"
-            }
-        },
-        "type": "material"
     },
     {
         "uid": "lightmap",
