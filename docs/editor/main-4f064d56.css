@@ -64,28 +64,28 @@ select[data-v-b91f8df2] {
 }
 
 
-.tree-node.drag-over[data-v-691d1ec7] {
+.tree-node.drag-over[data-v-6dd3ccde] {
     background-color: rgba(0, 120, 212, 0.1);
     outline: 1px dashed #0078d4;
 }
-.tree-node[data-v-691d1ec7] {
+.tree-node[data-v-6dd3ccde] {
     list-style: none;
     padding-top: 2px;
 }
 .tree-node-content {
-&[data-v-691d1ec7] {
+&[data-v-6dd3ccde] {
     display: flex;
     flex-direction: row;
     gap: 5px;
     }
-.collapser[data-v-691d1ec7] {
+.collapser[data-v-6dd3ccde] {
         width: 15px;
         cursor: pointer;
 }
-.selector[data-v-691d1ec7] {
+.selector[data-v-6dd3ccde] {
         width: 15px;
 }
-.labeler[data-v-691d1ec7] {
+.labeler[data-v-6dd3ccde] {
         display: block;
         flex: 1;
         flex-wrap: nowrap;
@@ -94,31 +94,32 @@ select[data-v-b91f8df2] {
         text-overflow: ellipsis;
         height: 20px;
 }
-.appender[data-v-691d1ec7] {
+.appender[data-v-6dd3ccde] {
         display: block;
 }
 }
-.tree-node ul[data-v-691d1ec7] {
+.tree-node ul[data-v-6dd3ccde] {
     margin-left: 5px;
     padding-left: 5px;
 }
 
 
 .treecontainer {
-&[data-v-7b20e99a] {
+&[data-v-48ce72d0] {
     display: flex;
     align-items: start;
     width: 100%;
     user-select: none;
     flex: 1;
     overflow-y: auto;
+    overflow-x: hidden;
 
     /* или фиксированную высоту, например 200px */
     min-height: 0;
     /* важно для правильной работы overflow в grid/flex */
     max-height: 100%;
 }
-.roottree[data-v-7b20e99a] {
+.roottree[data-v-48ce72d0] {
         width: 100%;
         /*max-width: 250px;*/
         display: flex;
@@ -296,7 +297,7 @@ button[data-v-539c25c2] {
 }
 }
 
-.hierarhy-view[data-v-5c278d93]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;height:100%}.focusedtree[data-v-5c278d93]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-5c278d93]{display:flex;gap:3px}.treeicon .svgicon[data-v-5c278d93]{cursor:pointer}.label[data-v-5c278d93]{cursor:pointer}
+.hierarhy-view[data-v-76d9b18c]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;height:100%}.focusedtree[data-v-76d9b18c]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-76d9b18c]{display:flex;gap:3px}.treeicon .svgicon[data-v-76d9b18c]{cursor:pointer}.label[data-v-76d9b18c]{cursor:pointer}
 
   
 /* Основные пункты меню */
@@ -473,7 +474,7 @@ to {
 }
 }
 
-svg[data-v-66598759]{fill:var(--symbolColor)}svg use title[data-v-66598759]{background-color:#000;color:#fff;text-align:center;border-radius:6px;padding:5px 0}
+svg[data-v-493d9cb4]{fill:var(--symbolColor)}svg use title[data-v-493d9cb4]{background-color:#000;color:#fff;text-align:center;border-radius:6px;padding:5px 0}
 
 .modal-overlay[data-v-06c840f3] {
   user-select: none;
