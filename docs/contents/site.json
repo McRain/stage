@@ -1,0 +1,713 @@
+{
+    "actions": [
+        {
+            "id": "CamMover1752475986312",
+            "name": "CamMover",
+            "type": "CamMover",
+            "group": "base",
+            "description": "Перемещение камеры при движении мыши. Применяется только к слайду",
+            "uid": "CamMover1752475986312"
+        }
+    ],
+    "assets": [
+        {
+            "uid": "arrow",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/base/arrow.glb",
+            "type": "gltf",
+            "parameters": {
+                "clone": true
+            },
+            "shadow": {
+                "cast": false,
+                "receive": false
+            },
+            "id": "arrow"
+        },
+        {
+            "id": "asset_1752490075447",
+            "name": "Gate",
+            "type": "hdr",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/base/golden_gate_hills_1k.hdr",
+            "uid": "asset_1752490075447"
+        },
+        {
+            "id": "asset_1752490454016",
+            "name": "hex",
+            "type": "gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/base/hex.glb",
+            "clone": true,
+            "uid": "asset_1752490454016",
+            "envMap": "asset_1752490075447"
+        },
+        {
+            "id": "asset_1752508040891",
+            "name": "space",
+            "type": "gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/planets/space.glb",
+            "uid": "asset_1752508040891",
+            "envMap": null
+        },
+        {
+            "id": "asset_1752510810759",
+            "name": "sunsys",
+            "type": "gltf",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/planets/sunsys.glb",
+            "uid": "asset_1752510810759",
+            "envMap": "hdr"
+        },
+        {
+            "uid": "hdr",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/base/golden_gate_hills_1k.hdr",
+            "type": "hdr",
+            "id": "hdr"
+        },
+        {
+            "uid": "hex",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/base/hex.glb",
+            "type": "gltf",
+            "parameters": {
+                "clone": true
+            },
+            "shadow": {
+                "cast": false,
+                "receive": false
+            },
+            "id": "hex"
+        },
+        {
+            "uid": "hex2",
+            "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/base/hex2.gltf",
+            "type": "gltf",
+            "parameters": {
+                "clone": true
+            },
+            "shadow": {
+                "cast": false,
+                "receive": false
+            },
+            "id": "hex2"
+        }
+    ],
+    "models": [
+        {
+            "name": "CamRoot",
+            "paths": [
+                "Element1752475868364"
+            ],
+            "path": "Element1752475868364",
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "position": {
+                        "x": 0,
+                        "y": 10,
+                        "z": 20
+                    },
+                    "visible": true
+                }
+            },
+            "type": "block",
+            "uid": "Element1752475868364",
+            "assets": [],
+            "id": "Element1752475868364"
+        },
+        {
+            "name": "Cam",
+            "paths": [
+                "Element1752475868364",
+                "Element1752475878636"
+            ],
+            "path": "Element1752475868364.Element1752475878636",
+            "parent": "Element1752475868364",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true
+                }
+            },
+            "type": "PerspectiveCamera",
+            "uid": "Element1752475878636",
+            "assets": [],
+            "id": "Element1752475878636"
+        },
+        {
+            "name": "Главная",
+            "paths": [
+                "Element1752493785418"
+            ],
+            "path": "Element1752493785418",
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true,
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                }
+            },
+            "type": "block",
+            "uid": "Element1752493785418",
+            "assets": [],
+            "id": "Element1752493785418"
+        },
+        {
+            "name": "Астрономия",
+            "paths": [
+                "Element1752493794889"
+            ],
+            "path": "Element1752493794889",
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "position": {
+                        "x": -6,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "visible": true,
+                    "null": null
+                }
+            },
+            "type": "block",
+            "uid": "Element1752493794889",
+            "assets": [],
+            "id": "Element1752493794889"
+        },
+        {
+            "name": "Физика",
+            "paths": [
+                "Element1752493801889"
+            ],
+            "path": "Element1752493801889",
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "position": {
+                        "x": 6,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "visible": true,
+                    "null": null
+                }
+            },
+            "type": "block",
+            "uid": "Element1752493801889",
+            "assets": [],
+            "id": "Element1752493801889"
+        },
+        {
+            "name": "Text",
+            "paths": [
+                "Element1752493785418",
+                "Element1752493847226"
+            ],
+            "path": "Element1752493785418.Element1752493847226",
+            "parent": "Element1752493785418",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "text": "ГЛАВНАЯ\n",
+                    "color": "#ffffff",
+                    "size": "2em",
+                    "position": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                    }
+                }
+            },
+            "type": "label2d",
+            "uid": "Element1752493847226",
+            "assets": [],
+            "id": "Element1752493847226"
+        },
+        {
+            "name": "Text",
+            "paths": [
+                "Element1752493794889",
+                "Element1752494754872"
+            ],
+            "path": "Element1752493794889.Element1752494754872",
+            "parent": "Element1752493794889",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "color": "#ffffff",
+                    "text": "АСТРОНОМИЯ\n",
+                    "position": {
+                        "x": 0,
+                        "y": 0.7,
+                        "z": 0
+                    },
+                    "size": "2em",
+                    "visible": true
+                }
+            },
+            "type": "label2d",
+            "uid": "Element1752494754872",
+            "assets": [],
+            "id": "Element1752494754872"
+        },
+        {
+            "name": "Text",
+            "paths": [
+                "Element1752493801889",
+                "Element1752494790784"
+            ],
+            "path": "Element1752493801889.Element1752494790784",
+            "parent": "Element1752493801889",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "color": "#ffffff",
+                    "size": "2em",
+                    "position": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                    },
+                    "text": "ФИЗИКА\n",
+                    "visible": true
+                }
+            },
+            "type": "label2d",
+            "uid": "Element1752494790784",
+            "assets": [],
+            "id": "Element1752494790784"
+        },
+        {
+            "name": "История",
+            "paths": [
+                "Element1752494918010"
+            ],
+            "path": "Element1752494918010",
+            "parent": null,
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "position": {
+                        "x": -2.9811237889993436,
+                        "y": 0,
+                        "z": -5.1652895180467059
+                    },
+                    "visible": true
+                }
+            },
+            "type": "block",
+            "uid": "Element1752494918010",
+            "assets": [],
+            "id": "Element1752494918010"
+        },
+        {
+            "name": "Text",
+            "paths": [
+                "Element1752494918010",
+                "Element1752494932025"
+            ],
+            "path": "Element1752494918010.Element1752494932025",
+            "parent": "Element1752494918010",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "color": "#ffffff",
+                    "size": "2em",
+                    "position": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                    },
+                    "text": "ИСТОРИЯ\n",
+                    "visible": true
+                }
+            },
+            "type": "label2d",
+            "uid": "Element1752494932025",
+            "assets": [],
+            "id": "Element1752494932025"
+        },
+        {
+            "name": "Text",
+            "paths": [
+                "Element1752493794889",
+                "hex1752498223626",
+                "Element1752498391411"
+            ],
+            "path": "Element1752493794889.hex1752498223626.Element1752498391411",
+            "parent": "hex1752498223626",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "text": "Солнечная\nсистема\n",
+                    "color": "#ffffff",
+                    "size": "2em",
+                    "position": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                    },
+                    "visible": true
+                }
+            },
+            "type": "label2d",
+            "uid": "Element1752498391411",
+            "assets": [],
+            "id": "Element1752498391411"
+        },
+        {
+            "name": "Text",
+            "paths": [
+                "Element1752493794889",
+                "hex1752498463887",
+                "Element1752498466827"
+            ],
+            "path": "Element1752493794889.hex1752498463887.Element1752498466827",
+            "parent": "hex1752498463887",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "text": "Галактики\n",
+                    "color": "#ffffff",
+                    "size": "2em",
+                    "position": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                    },
+                    "visible": true
+                }
+            },
+            "type": "label2d",
+            "uid": "Element1752498466827",
+            "assets": [],
+            "id": "Element1752498466827"
+        },
+        {
+            "name": "Galaxy",
+            "paths": [
+                "Element1752493794889",
+                "hex1752498463887",
+                "Element1752509028362"
+            ],
+            "path": "Element1752493794889.hex1752498463887.Element1752509028362",
+            "parent": "hex1752498463887",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "position": {
+                        "x": 0,
+                        "y": 0.5,
+                        "z": 0
+                    },
+                    "visible": false
+                }
+            },
+            "type": "block",
+            "uid": "Element1752509028362",
+            "assets": [],
+            "id": "Element1752509028362"
+        },
+        {
+            "name": "hex1752493816420",
+            "paths": [
+                "Element1752493785418",
+                "hex1752493816420"
+            ],
+            "path": "Element1752493785418.hex1752493816420",
+            "parent": "Element1752493785418",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true,
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "hex1752493816420",
+            "assets": [
+                {
+                    "uid": "asset_1752490454016"
+                }
+            ],
+            "id": "hex1752493816420"
+        },
+        {
+            "name": "hex1752493821388",
+            "paths": [
+                "Element1752493794889",
+                "hex1752493821388"
+            ],
+            "path": "Element1752493794889.hex1752493821388",
+            "parent": "Element1752493794889",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true,
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "hex1752493821388",
+            "assets": [
+                {
+                    "uid": "asset_1752490454016"
+                }
+            ],
+            "id": "hex1752493821388"
+        },
+        {
+            "name": "hex1752493825965",
+            "paths": [
+                "Element1752493801889",
+                "hex1752493825965"
+            ],
+            "path": "Element1752493801889.hex1752493825965",
+            "parent": "Element1752493801889",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true,
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "hex1752493825965",
+            "assets": [
+                {
+                    "uid": "asset_1752490454016"
+                }
+            ],
+            "id": "hex1752493825965"
+        },
+        {
+            "name": "hex1752494924943",
+            "paths": [
+                "Element1752494918010",
+                "hex1752494924943"
+            ],
+            "path": "Element1752494918010.hex1752494924943",
+            "parent": "Element1752494918010",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true,
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "hex1752494924943",
+            "assets": [
+                {
+                    "uid": "asset_1752490454016"
+                }
+            ],
+            "id": "hex1752494924943"
+        },
+        {
+            "name": "hex1752498223626",
+            "paths": [
+                "Element1752493794889",
+                "hex1752498223626"
+            ],
+            "path": "Element1752493794889.hex1752498223626",
+            "parent": "Element1752493794889",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true,
+                    "position": {
+                        "x": -5.25,
+                        "y": -15,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "hex1752498223626",
+            "assets": [
+                {
+                    "uid": "asset_1752490454016"
+                }
+            ],
+            "id": "hex1752498223626"
+        },
+        {
+            "name": "Галактики",
+            "paths": [
+                "Element1752493794889",
+                "hex1752498463887"
+            ],
+            "path": "Element1752493794889.hex1752498463887",
+            "parent": "Element1752493794889",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "visible": true,
+                    "position": {
+                        "x": 6,
+                        "y": -15,
+                        "z": 0
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "hex1752498463887",
+            "assets": [
+                {
+                    "uid": "asset_1752490454016"
+                }
+            ],
+            "id": "hex1752498463887"
+        },
+        {
+            "name": "space1752509034393",
+            "paths": [
+                "Element1752493794889",
+                "hex1752498463887",
+                "Element1752509028362",
+                "space1752509034393"
+            ],
+            "path": "Element1752493794889.hex1752498463887.Element1752509028362.space1752509034393",
+            "parent": "Element1752509028362",
+            "actions": [],
+            "props": {},
+            "properties": {},
+            "states": {
+                "sl1752475865860": {
+                    "actions": [],
+                    "position": {
+                        "x": -1.5,
+                        "y": 0,
+                        "z": 1.6
+                    }
+                }
+            },
+            "type": "model",
+            "uid": "space1752509034393",
+            "assets": [
+                {
+                    "uid": "asset_1752508040891"
+                }
+            ],
+            "id": "space1752509034393"
+        }
+    ],
+    "modules": [
+        {
+            "id": "gsap",
+            "uid": "gsap",
+            "name": "gsapmod",
+            "entry": "/mods/gsap/mf.js",
+            "index": "gsap"
+        }
+    ],
+    "project": [
+        {
+            "uid": "info",
+            "id": "project1752666323748",
+            "name": "Образование",
+            "created": 1752666323748,
+            "last": 1752666323748
+        }
+    ],
+    "slides": [
+        {
+            "actions": [],
+            "name": "Меню",
+            "scene": {
+                "background": {},
+                "environment": {}
+            },
+            "camera": {
+                "path": "Element1752475868364.Element1752475878636"
+            },
+            "uid": "sl1752475865860",
+            "props": {},
+            "id": "sl1752475865860"
+        }
+    ]
+}
