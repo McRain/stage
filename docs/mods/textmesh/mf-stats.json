@@ -100,9 +100,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./textmesh"
-      ]
+      "usedIn": []
     }
   ],
   "remotes": [
@@ -121,8 +119,7 @@
       "id": "textmesh:textmesh",
       "name": "textmesh",
       "requires": [
-        "@reneos/app",
-        "vue"
+        "@reneos/app"
       ],
       "file": "src\\index.mf.js",
       "assets": {
