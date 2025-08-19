@@ -113,8 +113,8 @@ img[data-v-10f88ff2] {
     padding: 1px;
 }
 
-.focusedtree[data-v-26bc82a3]{color:var(--text-focused);background-color:var(--bg-focused)}.hierarhy-view[data-v-26bc82a3]{overflow-y:auto;overflow-x:hidden;width:100%}.hierarhy-view .title[data-v-26bc82a3]{display:flex;gap:5px}.treeicon[data-v-26bc82a3]{display:flex;gap:3px;flex-wrap:nowrap;cursor:pointer}.label[data-v-26bc82a3]{cursor:pointer}
-.hierarhy-view[data-v-7ade3aad]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-7ade3aad]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-7ade3aad]{display:flex;gap:3px}.treeicon .svgicon[data-v-7ade3aad]{cursor:pointer}.label[data-v-7ade3aad]{cursor:pointer}
+.focusedtree[data-v-58cae4d4]{color:var(--text-focused);background-color:var(--bg-focused)}.hierarhy-view[data-v-58cae4d4]{overflow-y:auto;overflow-x:hidden;width:100%}.hierarhy-view .title[data-v-58cae4d4]{display:flex;gap:5px}.treeicon[data-v-58cae4d4]{display:flex;gap:3px;flex-wrap:nowrap;cursor:pointer}.label[data-v-58cae4d4]{cursor:pointer}
+.hierarhy-view[data-v-8bd98bcc]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-8bd98bcc]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-8bd98bcc]{display:flex;gap:3px}.treeicon .svgicon[data-v-8bd98bcc]{cursor:pointer}.label[data-v-8bd98bcc]{cursor:pointer}
 .hierarhy-view[data-v-1a63d920]{overflow-y:auto;overflow-x:hidden}.focusedtree[data-v-1a63d920]{color:var(--text-focused);background-color:var(--bg-focused)}.label[data-v-1a63d920]{cursor:pointer}
 
 .transformer{
@@ -250,7 +250,7 @@ img[data-v-10f88ff2] {
 	}
 }
 
-.element[data-v-411a6a52] {
+.element[data-v-5da5a106] {
     height: 100%;
     /* или фиксированную высоту, например 200px */
     min-height: 0;
@@ -262,7 +262,7 @@ img[data-v-10f88ff2] {
     display: flexbox;
     flex-direction: column;
 }
-.elementContent[data-v-411a6a52] {
+.elementContent[data-v-5da5a106] {
     height: 100%;
     /* или фиксированную высоту, например 200px */
     min-height: 0;
@@ -271,7 +271,7 @@ img[data-v-10f88ff2] {
     position: relative;
 }
 .container {
-&[data-v-411a6a52]{
+&[data-v-5da5a106]{
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -280,26 +280,26 @@ img[data-v-10f88ff2] {
     pointer-events: none;
     }
 .topline {
-&[data-v-411a6a52]{
+&[data-v-5da5a106]{
         display: grid;
         background: #2c3e50;
         grid-template-columns: 30% 40% 30%;
         }
 .title {
-&[data-v-411a6a52]{
+&[data-v-5da5a106]{
             display: flex;
             gap: 10px;
             justify-content: flex-end;
             align-items: center;
             padding: 0 10px;
             }
-.icon[data-v-411a6a52] {
+.icon[data-v-5da5a106] {
                 cursor: pointer;
                 pointer-events: all;
 }
 }
 }
-.hierarhy[data-v-411a6a52] {
+.hierarhy[data-v-5da5a106] {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -307,7 +307,7 @@ img[data-v-10f88ff2] {
         width: 256px;
         height: 100%;
 }
-.project[data-v-411a6a52] {
+.project[data-v-5da5a106] {
         position: absolute;
         top: 48px;
         right: 3px;
@@ -317,7 +317,7 @@ img[data-v-10f88ff2] {
         /*display: grid;
         grid-template-rows: repeat(auto-fill, 1fr);*/
 }
-.sliders[data-v-411a6a52] {
+.sliders[data-v-5da5a106] {
         position: absolute;
         bottom: 0px;
         left: 266px;
@@ -327,14 +327,14 @@ img[data-v-10f88ff2] {
 }
 
 /* Боковая панель */
-.sidebar[data-v-411a6a52] {
+.sidebar[data-v-5da5a106] {
     width: 68px;
     background-color: rgba(29, 32, 62, 0.5);
     padding-left: 11px;
     overflow: hidden;
     pointer-events: all;
 }
-.sidebar .menu[data-v-411a6a52] {
+.sidebar .menu[data-v-5da5a106] {
     position: absolute;
     top: 0;
     left: 0;
@@ -349,7 +349,7 @@ img[data-v-10f88ff2] {
     flex-direction: column;
     gap: 50px;
 }
-.sidebar .menublur[data-v-411a6a52] {
+.sidebar .menublur[data-v-5da5a106] {
     position: absolute;
     top: 0;
     left: 0;
@@ -359,23 +359,23 @@ img[data-v-10f88ff2] {
     width: 67px;
     filter: blur(5px);
 }
-.sidebar .menu .menuelement[data-v-411a6a52] {
+.sidebar .menu .menuelement[data-v-5da5a106] {
     width: 40px;
     height: 40px;
     background-image: url(/editor/assets/5bf54e94011af41adb2c.png);
 }
-.sidebar .menu .menuelements[data-v-411a6a52] {
+.sidebar .menu .menuelements[data-v-5da5a106] {
     width: 60px;
     height: 60px;
     background-image: url(/editor/assets/5bf54e94011af41adb2c.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sidebar .menu .menuelement[data-v-411a6a52]:hover {
+.sidebar .menu .menuelement[data-v-5da5a106]:hover {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
-.slides[data-v-411a6a52] {
+.slides[data-v-5da5a106] {
     position: absolute;
     bottom: 10px;
     left: 150px;
@@ -383,10 +383,10 @@ img[data-v-10f88ff2] {
     pointer-events: all;
 }
 .main-content {
-&[data-v-411a6a52]{
+&[data-v-5da5a106]{
     position: relative;
     }
-.camlist[data-v-411a6a52] {
+.camlist[data-v-5da5a106] {
         position: absolute;
         top: 0;
         right: 0;
@@ -397,7 +397,7 @@ img[data-v-10f88ff2] {
 
 
 /* Контейнер для карточек */
-.card-container[data-v-411a6a52] {
+.card-container[data-v-5da5a106] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /* Адаптивные столбцы */
@@ -405,25 +405,25 @@ img[data-v-10f88ff2] {
 }
 
 /* Карточки */
-.card[data-v-411a6a52] {
+.card[data-v-5da5a106] {
     background-color: #222;
     border-radius: 10px;
     padding: 20px;
 }
-.card-large[data-v-411a6a52] {
+.card-large[data-v-5da5a106] {
     grid-column: span 2;
     /* Занимает 2 столбца */
 }
 
 /* Правая панель */
 .right-sidebar {
-&[data-v-411a6a52]{
+&[data-v-5da5a106]{
     width: 200px;
     background-color: #2C2F48;
     overflow-y: auto;
     }
 .right-slider {
-&[data-v-411a6a52]{
+&[data-v-5da5a106]{
         pointer-events: all;
         display: flex;
         flex-direction: column;
@@ -431,14 +431,14 @@ img[data-v-10f88ff2] {
         width: 100%;
         padding: 5px;
         }
-.side-card[data-v-411a6a52] {
+.side-card[data-v-5da5a106] {
             background-color: rgba(255, 255, 255, 0.3);
             min-height: 10px;
             border-radius: 5%;
             border: 1px solid #0e0f16;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.line[data-v-411a6a52] {
+.line[data-v-5da5a106] {
             border: 1px solid #202235;
 }
 }

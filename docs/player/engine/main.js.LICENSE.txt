@@ -1,3 +1,5 @@
+/*!('visible' in nextState) ||*/
+
 /**
  * @license
  * Copyright 2010-2025 Three.js Authors

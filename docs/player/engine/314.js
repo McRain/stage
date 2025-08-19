@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_reneos_3d_player_engine=self.webpackChunk_reneos_3d_player_engine||[]).push([[314],{314:(e,s,n)=>{n.r(s),n.d(s,{default:()=>c});var t=n(30);class r extends t.default{constructor(e){super(e),this.isBlock=!0,this.type="block"}}const c=r}}]);
