@@ -136,7 +136,8 @@
             "609.bundle.js",
             "833.bundle.js",
             "680.bundle.js",
-            "93.bundle.js"
+            "201.bundle.js",
+            "459.bundle.js"
           ]
         },
         "css": {
@@ -193,6 +194,25 @@
         "js": {
           "sync": [
             "628.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./VisibleSetUI",
+      "id": "tools:VisibleSetUI",
+      "name": "VisibleSetUI",
+      "requires": [],
+      "file": "src\\actions\\VisibleSetUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "444.bundle.js"
           ],
           "async": []
         },
