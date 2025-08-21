@@ -24,3 +24,5 @@ Can be used to create presentations, educational applications, interactive demon
 ![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/example1.png)
 
 ![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/screen1.png)
+
+![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/screen3.png)
