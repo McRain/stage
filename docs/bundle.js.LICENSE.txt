@@ -1,0 +1,19 @@
+/*! #__NO_SIDE_EFFECTS__ */
+
+/**
+ * @license
+ * Copyright 2010-2025 Three.js Authors
+ * SPDX-License-Identifier: MIT
+ */
+
+/**
+* @vue/runtime-dom v3.5.19
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/shared v3.5.19
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
