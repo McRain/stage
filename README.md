@@ -17,6 +17,9 @@ Can be used to create presentations, educational applications, interactive demon
 
 <a href="https://slider.reneos.com/" style="font-size: 24px;">LINK</a>
 
+
+![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/apart.png)
+
 ![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/education.png)
 
 ![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/example1.png)
