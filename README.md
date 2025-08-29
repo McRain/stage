@@ -15,11 +15,10 @@ Includes:
 
 Can be used to create presentations, educational applications, interactive demonstrations.
 
-<a href="https://slider.reneos.com/" style="font-size: 24px;">Site</a>
+<a href="https://slider.reneos.com/" style="font-size: 24px;">LINK</a>
 
-<a href="https://slider.reneos.com/editor" style="font-size: 24px;">Editor</a>
 
-<a href="https://slider.reneos.com/player" style="font-size: 24px;">Player</a>
+![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/apart.png)
 
 ![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/education.png)
 
