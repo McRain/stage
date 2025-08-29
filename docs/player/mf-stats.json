@@ -5,7 +5,7 @@
     "name": "3d.player",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.2",
+      "buildVersion": "0.0.4",
       "buildName": "@reneos/3d.player"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.player",
-    "pluginVersion": "0.15.0",
+    "pluginVersion": "0.18.3",
     "prefetchInterface": false,
     "publicPath": "/player/"
   },
@@ -53,13 +53,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.178.0",
+      "requiredVersion": "^0.179.1",
       "shareScope": "default",
       "import": "three",
       "eager": true,
       "shareKey": "three",
       "name": "three",
-      "version": "0.178.0",
+      "version": "0.179.1",
       "id": "3d.player:three",
       "assets": {
         "js": {
@@ -79,13 +79,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.13",
+      "requiredVersion": "^3.5.20",
       "shareScope": "default",
       "import": "vue",
       "eager": true,
       "shareKey": "vue",
       "name": "vue",
-      "version": "3.5.13",
+      "version": "3.5.20",
       "id": "3d.player:vue",
       "assets": {
         "js": {

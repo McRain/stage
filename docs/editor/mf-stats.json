@@ -5,7 +5,7 @@
     "name": "3d.editor",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.2",
+      "buildVersion": "0.0.4",
       "buildName": "@reneos/3d.editor"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.editor",
-    "pluginVersion": "0.16.0",
+    "pluginVersion": "0.18.3",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
@@ -39,7 +39,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.5fef0443.js"
+            "vendors-27545368.7c63828d.js"
           ]
         },
         "css": {
@@ -51,19 +51,19 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.178.0",
+      "requiredVersion": "^0.179.1",
       "shareScope": "default",
       "import": "three",
       "eager": true,
       "shareKey": "three",
       "name": "three",
-      "version": "0.178.0",
+      "version": "0.179.1",
       "id": "3d.editor:three",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-121455fa.6e5b7477.js"
+            "vendors-121455fa.9c518044.js"
           ]
         },
         "css": {
@@ -75,19 +75,19 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.17",
+      "requiredVersion": "^3.5.19",
       "shareScope": "default",
       "import": "vue",
       "eager": true,
       "shareKey": "vue",
       "name": "vue",
-      "version": "3.5.17",
+      "version": "3.5.19",
       "id": "3d.editor:vue",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.5fef0443.js"
+            "vendors-27545368.7c63828d.js"
           ]
         },
         "css": {
