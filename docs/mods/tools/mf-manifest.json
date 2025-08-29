@@ -121,6 +121,25 @@
       "path": "./tools"
     },
     {
+      "id": "tools:LoaderScreen",
+      "name": "LoaderScreen",
+      "assets": {
+        "js": {
+          "sync": [
+            "957.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_LoaderScreen.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./LoaderScreen"
+    },
+    {
       "id": "tools:GoToUI",
       "name": "GoToUI",
       "assets": {

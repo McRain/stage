@@ -149,6 +149,27 @@
       }
     },
     {
+      "path": "./LoaderScreen",
+      "id": "tools:LoaderScreen",
+      "name": "LoaderScreen",
+      "requires": [],
+      "file": "src\\components\\loader.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "957.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_LoaderScreen.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
       "path": "./GoToUI",
       "id": "tools:GoToUI",
       "name": "GoToUI",
