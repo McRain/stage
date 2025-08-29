@@ -5,7 +5,7 @@
     "name": "tools",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.1",
+      "buildVersion": "0.0.4",
       "buildName": "@reneos/3d.mods.tools"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "tools",
-    "pluginVersion": "0.16.0",
+    "pluginVersion": "0.18.3",
     "prefetchInterface": false,
     "publicPath": "/mods/tools/"
   },
@@ -54,13 +54,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.178.0",
+      "requiredVersion": "^0.179.1",
       "shareScope": "default",
       "import": "three",
       "shareKey": "three",
       "eager": true,
       "name": "three",
-      "version": "0.178.0",
+      "version": "0.179.1",
       "id": "tools:three",
       "assets": {
         "js": {
@@ -79,13 +79,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.17",
+      "requiredVersion": "^3.5.19",
       "shareScope": "default",
       "import": "vue",
       "shareKey": "vue",
       "eager": true,
       "name": "vue",
-      "version": "3.5.17",
+      "version": "3.5.19",
       "id": "tools:vue",
       "assets": {
         "js": {
@@ -108,11 +108,13 @@
   "remotes": [
     {
       "alias": "tools",
-      "moduleName": "UNKNOWN",
-      "version": "/tools/mod.mf.js",
-      "federationContainerName": "tools",
       "consumingFederationContainerName": "tools",
-      "usedIn": []
+      "federationContainerName": "tools",
+      "moduleName": "LoaderScreen",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/tools/mod.mf.js"
     }
   ],
   "exposes": [
