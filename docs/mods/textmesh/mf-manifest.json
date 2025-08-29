@@ -5,7 +5,7 @@
     "name": "textmesh",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.1",
+      "buildVersion": "0.0.4",
       "buildName": "@reneos/3d.mods.textmesh"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "textmesh",
-    "pluginVersion": "0.16.0",
+    "pluginVersion": "0.18.3",
     "prefetchInterface": false,
     "publicPath": "/mods/textmesh/"
   },
@@ -48,9 +48,9 @@
     {
       "id": "textmesh:three",
       "name": "three",
-      "version": "0.178.0",
+      "version": "0.179.1",
       "singleton": true,
-      "requiredVersion": "^0.178.0",
+      "requiredVersion": "^0.179.1",
       "assets": {
         "js": {
           "async": [],
@@ -68,9 +68,9 @@
     {
       "id": "textmesh:vue",
       "name": "vue",
-      "version": "3.5.17",
+      "version": "3.5.19",
       "singleton": true,
-      "requiredVersion": "^3.5.17",
+      "requiredVersion": "^3.5.19",
       "assets": {
         "js": {
           "async": [],
