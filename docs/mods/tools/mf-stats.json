@@ -134,13 +134,12 @@
             "993.bundle.js"
           ],
           "async": [
-            "713.bundle.js",
-            "181.bundle.js",
-            "325.bundle.js",
+            "154.bundle.js",
+            "423.bundle.js",
             "609.bundle.js",
             "833.bundle.js",
             "680.bundle.js",
-            "201.bundle.js",
+            "920.bundle.js",
             "459.bundle.js"
           ]
         },

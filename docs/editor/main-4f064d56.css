@@ -1087,27 +1087,27 @@ button[data-v-f859e98c] {
 
 /* Общие стили */
 .container {
-&[data-v-3495dfb5] {
+&[data-v-76155ab7] {
     margin: auto;
     height: 512px;
     display: flex;
     flex-direction: row;
 }
-.extension[data-v-3495dfb5] {
+.extension[data-v-76155ab7] {
         height: 100%;
         width: 256px;
         display: block;
         position: relative;
 }
 .list-container {
-&[data-v-3495dfb5] {
+&[data-v-76155ab7] {
         flex: 1;
         height: 100%;
         width: 384px;
         overflow-y: auto;
 }
 .grid {
-&[data-v-3495dfb5] {
+&[data-v-76155ab7] {
             width: 100%;
             /*display: grid;
             /*grid-template-columns: repeat(auto-fill,  minmax(min-content, max-content));
@@ -1119,10 +1119,9 @@ button[data-v-f859e98c] {
             gap: 10px;
 }
 .grid-element {
-&[data-v-3495dfb5] {
+&[data-v-76155ab7] {
                 cursor: pointer;
-                width: 72px;
-                height: 72px;
+
                 aspect-ratio: 1;
                 border-radius: 10px;
                 border: 1px solid rgba(0, 0, 0, 0.75);
@@ -1135,7 +1134,7 @@ button[data-v-f859e98c] {
                 overflow: hidden;
                 gap: 5px;
 }
-&.selected[data-v-3495dfb5] {
+&.selected[data-v-76155ab7] {
                     border: 2px solid rgba(155, 155, 155, 0.75);
 }
 }
