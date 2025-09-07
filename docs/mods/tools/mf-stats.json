@@ -130,10 +130,12 @@
       "assets": {
         "js": {
           "sync": [
+            "487.bundle.js",
             "993.bundle.js"
           ],
           "async": [
-            "960.bundle.js",
+            "713.bundle.js",
+            "181.bundle.js",
             "325.bundle.js",
             "609.bundle.js",
             "833.bundle.js",
