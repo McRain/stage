@@ -872,7 +872,7 @@ button[data-v-ae734b3c]:disabled {
 }
 
 .block_container[data-v-44f8aea6]{width:100%;display:flex;flex-wrap:nowrap;gap:5px}.block_container .editrow[data-v-44f8aea6]{display:grid;grid-template-columns:1fr 20px;width:100%;align-items:center;gap:5px}.block_container .editrow .label[data-v-44f8aea6]{cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.block_container svg[data-v-44f8aea6]{cursor:pointer;flex-shrink:0}.okicon[data-v-44f8aea6]{flex-shrink:0}.editinput[data-v-44f8aea6]{flex:1}
-.block_container[data-v-cdfa764c]{width:100%;display:flex;flex-wrap:nowrap;gap:5px}.block_container .editrow[data-v-cdfa764c]{display:grid;grid-template-columns:1fr 20px;width:100%;align-items:center;gap:5px}.block_container .editrow .label[data-v-cdfa764c]{cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.block_container svg[data-v-cdfa764c]{cursor:pointer;flex-shrink:0}.okicon[data-v-cdfa764c]{flex-shrink:0}.editinput[data-v-cdfa764c]{flex:1;min-width:0;height:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.block_container[data-v-7c4f752c]{width:100%;display:flex;flex-wrap:nowrap;gap:5px}.block_container .editrow[data-v-7c4f752c]{display:grid;grid-template-columns:1fr 20px;width:100%;align-items:center;gap:5px;border:1px solid #000}.block_container .editrow .label[data-v-7c4f752c]{cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.block_container svg[data-v-7c4f752c]{cursor:pointer;flex-shrink:0}.okicon[data-v-7c4f752c]{flex-shrink:0}.editinput[data-v-7c4f752c]{flex:1;min-width:0;height:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 .transform-container {
     width: 100%;
@@ -1087,41 +1087,42 @@ button[data-v-f859e98c] {
 
 /* Общие стили */
 .container {
-&[data-v-76155ab7] {
+&[data-v-3f55f208] {
     margin: auto;
     height: 512px;
     display: flex;
     flex-direction: row;
 }
-.extension[data-v-76155ab7] {
+.extension[data-v-3f55f208] {
         height: 100%;
         width: 256px;
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: relative;
 }
 .list-container {
-&[data-v-76155ab7] {
+&[data-v-3f55f208] {
         flex: 1;
         height: 100%;
         width: 384px;
         overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+}
+.list-title[data-v-3f55f208] {
+            text-align: center;
+            margin-bottom: 10px;
 }
 .grid {
-&[data-v-76155ab7] {
+&[data-v-3f55f208] {
             width: 100%;
-            /*display: grid;
-            /*grid-template-columns: repeat(auto-fill,  minmax(min-content, max-content));
-            grid-auto-rows: 87px;*/
-            /*grid-auto-columns: max-content;
-            grid-auto-flow: column;*/
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
 }
 .grid-element {
-&[data-v-76155ab7] {
+&[data-v-3f55f208] {
                 cursor: pointer;
-
                 aspect-ratio: 1;
                 border-radius: 10px;
                 border: 1px solid rgba(0, 0, 0, 0.75);
@@ -1131,10 +1132,11 @@ button[data-v-f859e98c] {
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-                overflow: hidden;
                 gap: 5px;
+                min-width: 32px;
+                min-height: 32px;
 }
-&.selected[data-v-76155ab7] {
+&.selected[data-v-3f55f208] {
                     border: 2px solid rgba(155, 155, 155, 0.75);
 }
 }
@@ -1355,18 +1357,24 @@ li.highlighted[data-v-baa172ec] {
 .assetblock[data-v-5867b901]{top:0;width:100%;display:flex;flex-direction:row}.assetblock .icon[data-v-5867b901]{cursor:pointer}
 
 .form-container {
+&[data-v-3d96a4c4] {
     display: flex;
     flex-direction: column;
     max-width: 256px;
+}
 .info {
+&[data-v-3d96a4c4] {
         display: flex;
         flex-direction: column;
         gap: 10px;
+}
 .row {
+&[data-v-3d96a4c4] {
             display: grid;
             grid-template-columns: minmax(50px, 96px) minmax(128px, 1fr);
+}
 .rowvalue {
-.typeslist {
+.typeslist[data-v-3d96a4c4] {
                     width: 100%;
 }
 }
