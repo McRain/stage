@@ -585,6 +585,44 @@ to { transform: rotate(360deg);
 }
 
 
+.toastcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+.alert {
+        display: flex;
+        flex-direction: row;
+.alerticon {
+            margin: 10px;
+            fill: rgb(255, 0, 0);
+}
+.infoicon {
+            margin: 10px;
+            fill: rgb(98, 174, 236);
+}
+.warningicon {
+            margin: 10px;
+            fill: rgb(194, 191, 55);
+}
+.text {
+            font-size: 1.1em;
+            display: flex;
+            width: 100%;
+            align-items: center;
+}
+}
+.buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+button {
+            width: 100%;
+}
+}
+}
+
+
 .itemElement {
     overflow: hidden;
     font-size: 1em;
