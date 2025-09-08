@@ -5,7 +5,7 @@
     "name": "tools",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.4",
+      "buildVersion": "0.0.5",
       "buildName": "@reneos/3d.mods.tools"
     },
     "remoteEntry": {
@@ -134,7 +134,7 @@
             "993.bundle.js"
           ],
           "async": [
-            "154.bundle.js",
+            "208.bundle.js",
             "423.bundle.js",
             "609.bundle.js",
             "833.bundle.js",
@@ -145,7 +145,9 @@
         },
         "css": {
           "sync": [],
-          "async": []
+          "async": [
+            "208.css"
+          ]
         }
       }
     },
