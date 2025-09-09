@@ -48,9 +48,9 @@
     {
       "id": "gsapmod:three",
       "name": "three",
-      "version": "0.179.1",
+      "version": "0.180.0",
       "singleton": true,
-      "requiredVersion": "^0.179.1",
+      "requiredVersion": "^0.180.0",
       "assets": {
         "js": {
           "async": [],
