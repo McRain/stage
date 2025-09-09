@@ -315,7 +315,7 @@ button[data-v-7daecc34] {
 }
 }
 
-.hierarhy-view[data-v-21b9959d]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;height:100%}.focusedtree[data-v-21b9959d]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-21b9959d]{display:flex;gap:3px}.treeicon .svgicon[data-v-21b9959d]{cursor:pointer}.label[data-v-21b9959d]{cursor:pointer;max-width:140px}
+.hierarhy-view[data-v-18e201ce]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;height:100%}.focusedtree[data-v-18e201ce]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-18e201ce]{display:flex;gap:3px}.treeicon .svgicon[data-v-18e201ce]{cursor:pointer}.label[data-v-18e201ce]{cursor:pointer;max-width:140px}
 
   
 /* Основные пункты меню */
@@ -1146,7 +1146,7 @@ button[data-v-f859e98c] {
 
 
 .form-container {
-&[data-v-06bab4a8] {
+&[data-v-25cdeb34] {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1157,13 +1157,13 @@ button[data-v-f859e98c] {
     padding: 5px;
 }
 .form-column {
-&[data-v-06bab4a8] {
+&[data-v-25cdeb34] {
         display: flex;
         flex-direction: column;
         gap: 10px;
         justify-content: space-between;
 }
-.row[data-v-06bab4a8] {
+.row[data-v-25cdeb34] {
             display: grid;
             grid-template-columns: minmax(50px, 96px) minmax(128px, 1fr);
 }
