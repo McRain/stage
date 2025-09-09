@@ -54,29 +54,6 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.180.0",
-      "shareScope": "default",
-      "eager": false,
-      "strictVersion": true,
-      "name": "three",
-      "version": "0.180.0",
-      "id": "tools:three",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "815.bundle.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^3.5.19",
       "shareScope": "default",
       "import": "vue",
