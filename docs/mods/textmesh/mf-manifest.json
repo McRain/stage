@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "textmesh",
-    "pluginVersion": "0.18.3",
+    "pluginVersion": "0.18.4",
     "prefetchInterface": false,
     "publicPath": "/mods/textmesh/"
   },
@@ -48,9 +48,9 @@
     {
       "id": "textmesh:three",
       "name": "three",
-      "version": "0.179.1",
+      "version": "0.180.0",
       "singleton": true,
-      "requiredVersion": "^0.179.1",
+      "requiredVersion": "^0.180.0",
       "assets": {
         "js": {
           "async": [],
