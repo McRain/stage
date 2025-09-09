@@ -55,8 +55,7 @@
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "815.bundle.js"
           ]
         },
         "css": {
@@ -209,6 +208,23 @@
         }
       },
       "path": "./VisibleSetUI"
+    },
+    {
+      "id": "tools:CubeTextureUI",
+      "name": "CubeTextureUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "74.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./CubeTextureUI"
     }
   ]
 }
