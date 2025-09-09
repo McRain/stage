@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "tools",
-    "pluginVersion": "0.18.3",
+    "pluginVersion": "0.18.4",
     "prefetchInterface": false,
     "publicPath": "/mods/tools/"
   },
@@ -54,12 +54,12 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.179.1",
+      "requiredVersion": "^0.180.0",
       "shareScope": "default",
       "eager": false,
       "strictVersion": true,
       "name": "three",
-      "version": "0.179.1",
+      "version": "0.180.0",
       "id": "tools:three",
       "assets": {
         "js": {
