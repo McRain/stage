@@ -56,9 +56,8 @@
       "singleton": true,
       "requiredVersion": "^0.179.1",
       "shareScope": "default",
-      "import": "three",
-      "shareKey": "three",
-      "eager": true,
+      "eager": false,
+      "strictVersion": true,
       "name": "three",
       "version": "0.179.1",
       "id": "tools:three",
@@ -66,8 +65,7 @@
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "815.bundle.js"
           ]
         },
         "css": {
@@ -239,6 +237,25 @@
         "js": {
           "sync": [
             "444.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./CubeTextureUI",
+      "id": "tools:CubeTextureUI",
+      "name": "CubeTextureUI",
+      "requires": [],
+      "file": "src\\actions\\CubeTextureUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "74.bundle.js"
           ],
           "async": []
         },
