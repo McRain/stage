@@ -134,7 +134,7 @@
             "993.bundle.js"
           ],
           "async": [
-            "208.bundle.js",
+            "970.bundle.js",
             "423.bundle.js",
             "609.bundle.js",
             "833.bundle.js",
@@ -146,7 +146,7 @@
         "css": {
           "sync": [],
           "async": [
-            "208.css"
+            "970.css"
           ]
         }
       }
