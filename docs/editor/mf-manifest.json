@@ -47,14 +47,14 @@
     {
       "id": "3d.editor:three",
       "name": "three",
-      "version": "0.179.1",
+      "version": "0.180.0",
       "singleton": true,
-      "requiredVersion": "^0.179.1",
+      "requiredVersion": "^0.180.0",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-121455fa.5444b1d0.js"
+            "vendors-121455fa.0f378384.js"
           ]
         },
         "css": {
