@@ -56,9 +56,9 @@
       "singleton": true,
       "requiredVersion": "^0.180.0",
       "shareScope": "default",
-      "import": "three",
+      "eager": false,
+      "strictVersion": true,
       "shareKey": "three",
-      "eager": true,
       "name": "three",
       "version": "0.180.0",
       "id": "gsapmod:three",
@@ -66,8 +66,7 @@
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "815.bundle.js"
           ]
         },
         "css": {
@@ -116,7 +115,7 @@
       "usedIn": [
         "src/index.mf.js"
       ],
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "version": "/mods/gsap/mod.mf.js"
     },
     {
       "alias": "gsapremote",
@@ -126,7 +125,7 @@
       "usedIn": [
         "src/index.mf.js"
       ],
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "version": "/mods/gsap/mod.mf.js"
     },
     {
       "alias": "gsapremote",
@@ -136,7 +135,7 @@
       "usedIn": [
         "src/index.mf.js"
       ],
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "version": "/mods/gsap/mod.mf.js"
     },
     {
       "alias": "gsapremote",
@@ -146,7 +145,7 @@
       "usedIn": [
         "src/index.mf.js"
       ],
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "version": "/mods/gsap/mod.mf.js"
     },
     {
       "alias": "gsapremote",
@@ -156,7 +155,7 @@
       "usedIn": [
         "src/index.mf.js"
       ],
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "version": "/mods/gsap/mod.mf.js"
     }
   ],
   "exposes": [
@@ -299,6 +298,88 @@
           "sync": [
             "880.bundle.js",
             "681.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapFloatUI",
+      "id": "gsapmod:GsapFloatUI",
+      "name": "GsapFloatUI",
+      "requires": [],
+      "file": "src\\components\\inspector\\GsapFloatUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "695.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapFloatUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapFloat",
+      "id": "gsapmod:GsapFloat",
+      "name": "GsapFloat",
+      "requires": [],
+      "file": "src\\actions\\GsapFloat",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "205.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapTyperUI",
+      "id": "gsapmod:GsapTyperUI",
+      "name": "GsapTyperUI",
+      "requires": [],
+      "file": "src\\components\\inspector\\GsapTyperUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "859.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapTyperUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapTyper",
+      "id": "gsapmod:GsapTyper",
+      "name": "GsapTyper",
+      "requires": [],
+      "file": "src\\actions\\GsapTyper",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "313.bundle.js"
           ],
           "async": []
         },
