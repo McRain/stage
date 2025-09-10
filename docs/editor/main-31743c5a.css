@@ -537,7 +537,7 @@ img[data-v-b34fe414] {
     flex-direction: row;
 .alerticon {
         margin: 10px;
-        fill: rgb(255, 0, 0);
+        fill: rgb(255, 2, 2);
 }
 .infoicon {
         margin: 10px;
@@ -552,6 +552,7 @@ img[data-v-b34fe414] {
         display: flex;
         width: 100%;
         align-items: center;
+        margin-left: 10px;
 }
 }
 
