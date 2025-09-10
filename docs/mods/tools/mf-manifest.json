@@ -46,11 +46,31 @@
       }
     },
     {
+      "id": "tools:three",
+      "name": "three",
+      "version": "0.180.0",
+      "singleton": true,
+      "requiredVersion": "^0.180.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "tools:vue",
       "name": "vue",
-      "version": "3.5.19",
+      "version": "3.5.21",
       "singleton": true,
-      "requiredVersion": "^3.5.19",
+      "requiredVersion": "^3.5.21",
       "assets": {
         "js": {
           "async": [],
