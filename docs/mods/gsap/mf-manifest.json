@@ -55,8 +55,7 @@
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "815.bundle.js"
           ]
         },
         "css": {
@@ -91,31 +90,31 @@
       "federationContainerName": "gsapmod",
       "moduleName": "GsapFloatUI",
       "alias": "gsapremote",
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "entry": "/mods/gsap/mod.mf.js"
     },
     {
       "federationContainerName": "gsapmod",
       "moduleName": "GsapPositionUI",
       "alias": "gsapremote",
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "entry": "/mods/gsap/mod.mf.js"
     },
     {
       "federationContainerName": "gsapmod",
       "moduleName": "GsapRotationUI",
       "alias": "gsapremote",
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "entry": "/mods/gsap/mod.mf.js"
     },
     {
       "federationContainerName": "gsapmod",
       "moduleName": "GsapScaleUI",
       "alias": "gsapremote",
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "entry": "/mods/gsap/mod.mf.js"
     },
     {
       "federationContainerName": "gsapmod",
       "moduleName": "GsapTyperUI",
       "alias": "gsapremote",
-      "entry": "http://localhost/mods/gsap/mod.mf.js"
+      "entry": "/mods/gsap/mod.mf.js"
     }
   ],
   "exposes": [
@@ -247,6 +246,80 @@
         }
       },
       "path": "./GsapScale"
+    },
+    {
+      "id": "gsapmod:GsapFloatUI",
+      "name": "GsapFloatUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "695.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapFloatUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./GsapFloatUI"
+    },
+    {
+      "id": "gsapmod:GsapFloat",
+      "name": "GsapFloat",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "205.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./GsapFloat"
+    },
+    {
+      "id": "gsapmod:GsapTyperUI",
+      "name": "GsapTyperUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "859.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapTyperUI.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./GsapTyperUI"
+    },
+    {
+      "id": "gsapmod:GsapTyper",
+      "name": "GsapTyper",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "313.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./GsapTyper"
     }
   ]
 }
