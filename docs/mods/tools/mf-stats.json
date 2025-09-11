@@ -5,7 +5,7 @@
     "name": "tools",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.5",
+      "buildVersion": "0.0.7",
       "buildName": "@reneos/3d.mods.tools"
     },
     "remoteEntry": {
