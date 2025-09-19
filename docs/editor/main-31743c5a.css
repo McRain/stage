@@ -114,7 +114,7 @@ img[data-v-b34fe414] {
     padding: 1px;
 }
 
-.focusedtree[data-v-8f84c31a]{color:var(--text-focused);background-color:var(--bg-focused)}.hierarhy-view[data-v-8f84c31a]{overflow-y:auto;overflow-x:hidden;width:100%}.hierarhy-view .title[data-v-8f84c31a]{display:flex;gap:5px}.treeicon[data-v-8f84c31a]{display:flex;gap:3px;flex-wrap:nowrap;cursor:pointer}.label[data-v-8f84c31a]{cursor:pointer}
+.focusedtree[data-v-a8cc45f6]{color:var(--text-focused);background-color:var(--bg-focused)}.hierarhy-view[data-v-a8cc45f6]{overflow-y:auto;overflow-x:hidden;width:100%}.hierarhy-view .title[data-v-a8cc45f6]{display:flex;gap:5px}.treeicon[data-v-a8cc45f6]{display:flex;gap:3px;flex-wrap:nowrap;cursor:pointer}.label[data-v-a8cc45f6]{cursor:pointer}
 .hierarhy-view[data-v-3eac9d53]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-3eac9d53]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-3eac9d53]{display:flex;gap:3px}.treeicon .svgicon[data-v-3eac9d53]{cursor:pointer}.label[data-v-3eac9d53]{cursor:pointer}
 .hierarhy-view[data-v-6bf93691]{overflow-y:auto;overflow-x:hidden}.focusedtree[data-v-6bf93691]{color:var(--text-focused);background-color:var(--bg-focused)}.label[data-v-6bf93691]{cursor:pointer}
 
