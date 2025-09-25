@@ -6,7 +6,7 @@
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.7",
-      "buildName": "@reneos/3d.mods.tools"
+      "buildName": "@reneos/slider.mods.tools"
     },
     "remoteEntry": {
       "name": "mf.js",
@@ -35,8 +35,7 @@
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "302.bundle.js"
           ]
         },
         "css": {
@@ -55,8 +54,7 @@
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "815.bundle.js"
           ]
         },
         "css": {
@@ -75,8 +73,7 @@
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "31.bundle.js"
           ]
         },
         "css": {
@@ -105,7 +102,7 @@
             "993.bundle.js"
           ],
           "async": [
-            "970.bundle.js",
+            "196.bundle.js",
             "423.bundle.js",
             "609.bundle.js",
             "684.bundle.js",
@@ -117,7 +114,7 @@
         "css": {
           "sync": [],
           "async": [
-            "970.css"
+            "196.css"
           ]
         }
       },

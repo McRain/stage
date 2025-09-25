@@ -6,7 +6,7 @@
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.4",
-      "buildName": "@reneos/3d.mod.gsap"
+      "buildName": "@reneos/slider.mod.gsap"
     },
     "remoteEntry": {
       "name": "mf.js",

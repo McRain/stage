@@ -6,7 +6,7 @@
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.7",
-      "buildName": "@reneos/3d.mods.tools"
+      "buildName": "@reneos/slider.mods.tools"
     },
     "remoteEntry": {
       "name": "mf.js",
@@ -30,17 +30,15 @@
       "requiredVersion": "^1.0.6",
       "shareScope": "default",
       "import": "@reneos/app",
-      "eager": true,
-      "shareKey": "@reneos/app",
       "name": "@reneos/app",
       "version": "1.0.6",
+      "eager": false,
       "id": "tools:@reneos/app",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "302.bundle.js"
           ]
         },
         "css": {
@@ -57,17 +55,15 @@
       "requiredVersion": "^0.180.0",
       "shareScope": "default",
       "import": "three",
-      "shareKey": "three",
-      "eager": true,
       "name": "three",
       "version": "0.180.0",
+      "eager": false,
       "id": "tools:three",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "815.bundle.js"
           ]
         },
         "css": {
@@ -82,17 +78,15 @@
       "requiredVersion": "^3.5.21",
       "shareScope": "default",
       "import": "vue",
-      "shareKey": "vue",
-      "eager": true,
       "name": "vue",
       "version": "3.5.21",
+      "eager": false,
       "id": "tools:vue",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "mf.js",
-            "bundle.js"
+            "31.bundle.js"
           ]
         },
         "css": {
@@ -134,7 +128,7 @@
             "993.bundle.js"
           ],
           "async": [
-            "970.bundle.js",
+            "196.bundle.js",
             "423.bundle.js",
             "609.bundle.js",
             "684.bundle.js",
@@ -146,7 +140,7 @@
         "css": {
           "sync": [],
           "async": [
-            "970.css"
+            "196.css"
           ]
         }
       }
