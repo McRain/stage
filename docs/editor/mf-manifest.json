@@ -35,12 +35,15 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.02a9d5d7.js"
+            "main.js",
+            "main.7ce558d981d9b76b3b64.hot-update.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": []
+          "sync": [
+            "main.css"
+          ]
         }
       }
     },
@@ -54,12 +57,15 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.02a9d5d7.js"
+            "main.js",
+            "main.7ce558d981d9b76b3b64.hot-update.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": []
+          "sync": [
+            "main.css"
+          ]
         }
       }
     },
@@ -73,12 +79,15 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-dfbd6d0c.fa5e606b.js"
+            "main.js",
+            "main.7ce558d981d9b76b3b64.hot-update.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": []
+          "sync": [
+            "main.css"
+          ]
         }
       }
     }
