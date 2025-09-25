@@ -6,7 +6,7 @@
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.8",
-      "buildName": "@reneos/3d.player"
+      "buildName": "@reneos/slider.player"
     },
     "remoteEntry": {
       "name": "",

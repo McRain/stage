@@ -1,0 +1,146 @@
+{
+  "id": "particle",
+  "name": "particle",
+  "metaData": {
+    "name": "particle",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.4",
+      "buildName": "@reneos/slider.mods.particle"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "particle",
+    "pluginVersion": "0.19.1",
+    "prefetchInterface": false,
+    "publicPath": "/mods/particle/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "shareScope": "default",
+      "import": "@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "eager": false,
+      "id": "particle:@reneos/app",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "node_modules_reneos_app_index_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./particle"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.180.0",
+      "shareScope": "default",
+      "import": "three",
+      "name": "three",
+      "version": "0.180.0",
+      "eager": false,
+      "id": "particle:three",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_three_build_three_module_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.21",
+      "shareScope": "default",
+      "import": "vue",
+      "name": "vue",
+      "version": "3.5.21",
+      "eager": false,
+      "id": "particle:vue",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_vue_dist_vue_runtime_esm-bundler_js.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./particle"
+      ]
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./particle",
+      "id": "particle:particle",
+      "name": "particle",
+      "requires": [
+        "@reneos/app",
+        "vue"
+      ],
+      "file": "src\\index.mf.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_particle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./particleUI",
+      "id": "particle:particleUI",
+      "name": "particleUI",
+      "requires": [],
+      "file": "src\\inspector\\particleUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_particleUI.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

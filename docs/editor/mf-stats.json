@@ -1,12 +1,12 @@
 {
-  "id": "3d.editor",
-  "name": "3d.editor",
+  "id": "slider.editor",
+  "name": "slider.editor",
   "metaData": {
-    "name": "3d.editor",
+    "name": "slider.editor",
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.8",
-      "buildName": "@reneos/3d.editor"
+      "buildName": "@reneos/slider.editor"
     },
     "remoteEntry": {
       "name": "",
@@ -19,27 +19,27 @@
       "zip": "",
       "api": ""
     },
-    "globalName": "3d.editor",
-    "pluginVersion": "0.18.3",
+    "globalName": "slider.editor",
+    "pluginVersion": "0.19.1",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
   "shared": [
     {
       "singleton": true,
-      "requiredVersion": "^1.0.6",
+      "requiredVersion": "1.0.6",
       "shareScope": "default",
       "import": "@reneos/app",
       "eager": true,
       "shareKey": "@reneos/app",
       "name": "@reneos/app",
       "version": "1.0.6",
-      "id": "3d.editor:@reneos/app",
+      "id": "slider.editor:@reneos/app",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.309da1cc.js"
+            "vendors-27545368.02a9d5d7.js"
           ]
         },
         "css": {
@@ -58,12 +58,12 @@
       "shareKey": "three",
       "name": "three",
       "version": "0.180.0",
-      "id": "3d.editor:three",
+      "id": "slider.editor:three",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-121455fa.0f378384.js"
+            "vendors-27545368.02a9d5d7.js"
           ]
         },
         "css": {
@@ -75,19 +75,19 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.19",
+      "requiredVersion": "^3.5.21",
       "shareScope": "default",
       "import": "vue",
       "eager": true,
       "shareKey": "vue",
       "name": "vue",
-      "version": "3.5.19",
-      "id": "3d.editor:vue",
+      "version": "3.5.21",
+      "id": "slider.editor:vue",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.309da1cc.js"
+            "vendors-dfbd6d0c.fa5e606b.js"
           ]
         },
         "css": {
