@@ -105,7 +105,7 @@
             "196.bundle.js",
             "423.bundle.js",
             "609.bundle.js",
-            "684.bundle.js",
+            "563.bundle.js",
             "680.bundle.js",
             "920.bundle.js",
             "459.bundle.js"
@@ -114,7 +114,8 @@
         "css": {
           "sync": [],
           "async": [
-            "196.css"
+            "196.css",
+            "563.css"
           ]
         }
       },
@@ -184,7 +185,9 @@
           "async": []
         },
         "css": {
-          "sync": [],
+          "sync": [
+            "__federation_expose_NextSlideUI.css"
+          ],
           "async": []
         }
       },

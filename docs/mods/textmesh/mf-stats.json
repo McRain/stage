@@ -6,7 +6,7 @@
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.4",
-      "buildName": "@reneos/3d.mods.textmesh"
+      "buildName": "@reneos/slider3d.mods.textmesh"
     },
     "remoteEntry": {
       "name": "mf.js",

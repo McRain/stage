@@ -1,0 +1,21 @@
+
+.vertflex {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-fit {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: row;
+}
+.flex-line {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+.line-title {
+        flex: 1;
+}
+}
+
