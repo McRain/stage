@@ -5,7 +5,7 @@
     "name": "textmesh",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.4",
+      "buildVersion": "0.0.9",
       "buildName": "@reneos/slider3d.mods.textmesh"
     },
     "remoteEntry": {
@@ -100,17 +100,31 @@
           "sync": []
         }
       },
-      "usedIn": []
+      "usedIn": [
+        "./textmesh"
+      ]
     }
   ],
   "remotes": [
     {
       "alias": "textmesh",
-      "moduleName": "UNKNOWN",
-      "version": "/textmesh/mod.mf.js",
-      "federationContainerName": "textmesh",
       "consumingFederationContainerName": "textmesh",
-      "usedIn": []
+      "federationContainerName": "textmesh",
+      "moduleName": "TextContainerUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/textmesh/mod.mf.js"
+    },
+    {
+      "alias": "textmesh",
+      "consumingFederationContainerName": "textmesh",
+      "federationContainerName": "textmesh",
+      "moduleName": "TextMeshUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/textmesh/mod.mf.js"
     }
   ],
   "exposes": [
@@ -119,7 +133,8 @@
       "id": "textmesh:textmesh",
       "name": "textmesh",
       "requires": [
-        "@reneos/app"
+        "@reneos/app",
+        "vue"
       ],
       "file": "src\\index.mf.js",
       "assets": {
@@ -150,9 +165,7 @@
           "async": []
         },
         "css": {
-          "sync": [
-            "__federation_expose_TextMeshUI.css"
-          ],
+          "sync": [],
           "async": []
         }
       }

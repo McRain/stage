@@ -5,7 +5,7 @@
     "name": "troika",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.4",
+      "buildVersion": "0.0.9",
       "buildName": "@reneos/slider.mods.textmesh"
     },
     "remoteEntry": {

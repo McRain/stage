@@ -5,7 +5,7 @@
     "name": "textmesh",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.4",
+      "buildVersion": "0.0.9",
       "buildName": "@reneos/slider3d.mods.textmesh"
     },
     "remoteEntry": {
@@ -89,7 +89,13 @@
   "remotes": [
     {
       "federationContainerName": "textmesh",
-      "moduleName": "UNKNOWN",
+      "moduleName": "TextContainerUI",
+      "alias": "textmesh",
+      "entry": "/textmesh/mod.mf.js"
+    },
+    {
+      "federationContainerName": "textmesh",
+      "moduleName": "TextMeshUI",
       "alias": "textmesh",
       "entry": "/textmesh/mod.mf.js"
     }
@@ -124,9 +130,7 @@
           "async": []
         },
         "css": {
-          "sync": [
-            "__federation_expose_TextMeshUI.css"
-          ],
+          "sync": [],
           "async": []
         }
       },
