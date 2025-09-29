@@ -5,7 +5,7 @@
     "name": "tools",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.7",
+      "buildVersion": "0.0.9",
       "buildName": "@reneos/slider.mods.tools"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "tools",
-    "pluginVersion": "0.18.4",
+    "pluginVersion": "0.19.1",
     "prefetchInterface": false,
     "publicPath": "/mods/tools/"
   },
@@ -66,9 +66,9 @@
     {
       "id": "tools:vue",
       "name": "vue",
-      "version": "3.5.21",
+      "version": "3.5.22",
       "singleton": true,
-      "requiredVersion": "^3.5.21",
+      "requiredVersion": "^3.5.22",
       "assets": {
         "js": {
           "async": [],
