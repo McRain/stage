@@ -131,7 +131,7 @@
       "usedIn": [
         "src/models/columnchart.js"
       ],
-      "entry": "http://localhost/mods/gsap/mf.js"
+      "version": "/mods/gsap/mf.js"
     }
   ],
   "exposes": [
