@@ -107,7 +107,7 @@
       "federationContainerName": "gsapmod",
       "moduleName": "GsapFloat",
       "alias": "gsapmod",
-      "entry": "http://localhost/mods/gsap/mf.js"
+      "entry": "/mods/gsap/mf.js"
     }
   ],
   "exposes": [
