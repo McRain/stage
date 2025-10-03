@@ -30,15 +30,17 @@
       "requiredVersion": "^1.0.6",
       "shareScope": "default",
       "import": "@reneos/app",
+      "eager": true,
+      "shareKey": "@reneos/app",
       "name": "@reneos/app",
       "version": "1.0.6",
-      "eager": false,
       "id": "particle:@reneos/app",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "node_modules_reneos_app_index_js.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
@@ -55,15 +57,17 @@
       "requiredVersion": "^0.180.0",
       "shareScope": "default",
       "import": "three",
+      "shareKey": "three",
+      "eager": true,
       "name": "three",
       "version": "0.180.0",
-      "eager": false,
       "id": "particle:three",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_three_build_three_module_js.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
@@ -78,15 +82,17 @@
       "requiredVersion": "^3.5.22",
       "shareScope": "default",
       "import": "vue",
+      "shareKey": "vue",
+      "eager": true,
       "name": "vue",
       "version": "3.5.22",
-      "eager": false,
       "id": "particle:vue",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_vue_dist_vue_runtime_esm-bundler_js.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
@@ -99,7 +105,16 @@
       ]
     }
   ],
-  "remotes": [],
+  "remotes": [
+    {
+      "alias": "particle",
+      "moduleName": "UNKNOWN",
+      "version": "/particle/mod.mf.js",
+      "federationContainerName": "particle",
+      "consumingFederationContainerName": "particle",
+      "usedIn": []
+    }
+  ],
   "exposes": [
     {
       "path": "./particle",
@@ -113,7 +128,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_particle.js"
+            "846.bundle.js"
           ],
           "async": []
         },
@@ -132,7 +147,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_particleUI.js"
+            "956.bundle.js"
           ],
           "async": []
         },
