@@ -117,7 +117,8 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_charts.js"
+            "__federation_expose_charts.js",
+            "__federation_expose_charts.3a06aa5211a575989236.hot-update.js"
           ],
           "async": [
             "src_inspector_chartsUI_vue.js"

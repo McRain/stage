@@ -35,7 +35,8 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_reneos_app_index_js.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
@@ -54,7 +55,8 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_three_build_three_module_js.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
@@ -73,7 +75,8 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_vue_dist_vue_runtime_esm-bundler_js.js"
+            "mf.js",
+            "bundle.js"
           ]
         },
         "css": {
@@ -83,7 +86,14 @@
       }
     }
   ],
-  "remotes": [],
+  "remotes": [
+    {
+      "federationContainerName": "particle",
+      "moduleName": "UNKNOWN",
+      "alias": "particle",
+      "entry": "/particle/mod.mf.js"
+    }
+  ],
   "exposes": [
     {
       "id": "particle:particle",
@@ -91,7 +101,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_particle.js"
+            "846.bundle.js"
           ],
           "async": []
         },
@@ -108,7 +118,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_particleUI.js"
+            "956.bundle.js"
           ],
           "async": []
         },
