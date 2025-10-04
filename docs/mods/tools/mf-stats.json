@@ -109,6 +109,16 @@
         "src/index.mf.js"
       ],
       "version": "/tools/mod.mf.js"
+    },
+    {
+      "alias": "tools",
+      "consumingFederationContainerName": "tools",
+      "federationContainerName": "tools",
+      "moduleName": "GoToUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/tools/mod.mf.js"
     }
   ],
   "exposes": [
@@ -128,10 +138,9 @@
             "993.bundle.js"
           ],
           "async": [
-            "745.bundle.js",
-            "932.bundle.js",
-            "824.bundle.js",
-            "225.bundle.js",
+            "789.bundle.js",
+            "884.bundle.js",
+            "549.bundle.js",
             "139.bundle.js",
             "772.bundle.js",
             "38.bundle.js"
@@ -139,10 +148,7 @@
         },
         "css": {
           "sync": [],
-          "async": [
-            "745.css",
-            "225.css"
-          ]
+          "async": []
         }
       }
     },
@@ -219,9 +225,7 @@
           "async": []
         },
         "css": {
-          "sync": [
-            "__federation_expose_NextSlideUI.css"
-          ],
+          "sync": [],
           "async": []
         }
       }
