@@ -87,7 +87,8 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-dfbd6d0c.3a9f32bd.js"
+            "vendors-dfbd6d0c.3a9f32bd.js",
+            "vendors-be116c44.43182719.js"
           ]
         },
         "css": {
