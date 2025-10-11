@@ -20,7 +20,7 @@ Includes:
  
 
 
-<a href="https://slider.reneos.com/" style="font-size: 24px;">LINK</a>
+<a href="https://stage.reneos.com/" style="font-size: 24px;">LINK</a>
 
 
 ![Screenshot of a preview.](https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/screens/apart.png)
