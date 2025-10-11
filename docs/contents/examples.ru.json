@@ -1,0 +1,20 @@
+[
+    {
+        "image": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/site/education.png",
+        "alt": "Проект 1",
+        "title": "Интерактивный урок",
+        "description": "Образовательная презентация для школы"
+    },
+    {
+        "image": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/site/example1.png",
+        "alt": "Проект 2",
+        "title": "Презентация продукта",
+        "description": "Презентация нового продукта в 3D"
+    },
+    {
+        "image": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/site/screen3.png",
+        "alt": "Проект 3",
+        "title": "Выставочный зал",
+        "description": "Интерактивная демонстрация деятельности компании"
+    }
+]

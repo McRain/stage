@@ -1,0 +1,20 @@
+[
+    {
+        "image": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/site/education.png",
+        "alt": "Project 1",
+        "title": "Interactive lesson",
+        "description": "Educational presentation for school"
+    },
+    {
+        "image": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/site/example1.png",
+        "alt": "Project 2",
+        "title": "Product presentation",
+        "description": "Presentation of a new product in 3D"
+    },
+    {
+        "image": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/site/screen3.png",
+        "alt": "Project 3",
+        "title": "Showroom",
+        "description": "Interactive display of the company activities"
+    }
+]
