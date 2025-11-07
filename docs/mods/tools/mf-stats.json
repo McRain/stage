@@ -109,16 +109,6 @@
         "src/index.mf.js"
       ],
       "version": "/tools/mod.mf.js"
-    },
-    {
-      "alias": "tools",
-      "consumingFederationContainerName": "tools",
-      "federationContainerName": "tools",
-      "moduleName": "GoToUI",
-      "usedIn": [
-        "src/index.mf.js"
-      ],
-      "version": "/tools/mod.mf.js"
     }
   ],
   "exposes": [
@@ -134,11 +124,12 @@
       "assets": {
         "js": {
           "sync": [
-            "487.bundle.js",
+            "496.bundle.js",
             "993.bundle.js"
           ],
           "async": [
-            "789.bundle.js",
+            "509.bundle.js",
+            "960.bundle.js",
             "884.bundle.js",
             "549.bundle.js",
             "139.bundle.js",

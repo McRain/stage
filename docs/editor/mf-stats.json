@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "slider.editor",
-    "pluginVersion": "0.19.1",
+    "pluginVersion": "0.21.2",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
@@ -39,7 +39,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.02a9d5d7.js"
+            "vendors-27545368.33adf649.js"
           ]
         },
         "css": {
@@ -51,19 +51,19 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.180.0",
+      "requiredVersion": "^0.181.0",
       "shareScope": "default",
       "import": "three",
       "eager": true,
       "shareKey": "three",
       "name": "three",
-      "version": "0.180.0",
+      "version": "0.181.0",
       "id": "slider.editor:three",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.02a9d5d7.js"
+            "vendors-27545368.33adf649.js"
           ]
         },
         "css": {
