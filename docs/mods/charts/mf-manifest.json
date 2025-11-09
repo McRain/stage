@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "charts",
-    "pluginVersion": "0.19.1",
+    "pluginVersion": "0.21.3",
     "prefetchInterface": false,
     "publicPath": "/mods/charts/"
   },
@@ -66,9 +66,9 @@
     {
       "id": "charts:three",
       "name": "three",
-      "version": "0.180.0",
+      "version": "0.181.0",
       "singleton": true,
-      "requiredVersion": "^0.180.0",
+      "requiredVersion": "^0.181.0",
       "assets": {
         "js": {
           "async": [],
@@ -85,9 +85,9 @@
     {
       "id": "charts:vue",
       "name": "vue",
-      "version": "3.5.22",
+      "version": "3.5.24",
       "singleton": true,
-      "requiredVersion": "^3.5.22",
+      "requiredVersion": "^3.5.24",
       "assets": {
         "js": {
           "async": [],

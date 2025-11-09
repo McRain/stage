@@ -5,7 +5,7 @@
     "name": "slider.editor",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.9",
+      "buildVersion": "0.0.10",
       "buildName": "@reneos/slider.editor"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "slider.editor",
-    "pluginVersion": "0.21.2",
+    "pluginVersion": "0.21.3",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
@@ -75,7 +75,7 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.22",
+      "requiredVersion": "^3.5.24",
       "shareScope": "default",
       "import": "vue",
       "eager": true,
@@ -87,7 +87,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-dfbd6d0c.3a9f32bd.js",
+            "vendors-dfbd6d0c.004cd9f6.js",
             "vendors-be116c44.43182719.js"
           ]
         },
