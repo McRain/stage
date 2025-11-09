@@ -5,7 +5,7 @@
     "name": "gsapmod",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.9",
+      "buildVersion": "0.0.10",
       "buildName": "@reneos/slider.mod.gsap"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "gsapmod",
-    "pluginVersion": "0.19.1",
+    "pluginVersion": "0.21.3",
     "prefetchInterface": false,
     "publicPath": "/mods/gsap/"
   },
@@ -54,13 +54,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.180.0",
+      "requiredVersion": "^0.181.0",
       "shareScope": "default",
       "eager": false,
       "strictVersion": true,
       "shareKey": "three",
       "name": "three",
-      "version": "0.180.0",
+      "version": "0.181.0",
       "id": "gsapmod:three",
       "assets": {
         "js": {
@@ -80,13 +80,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.22",
+      "requiredVersion": "^3.5.24",
       "shareScope": "default",
       "import": "vue",
       "shareKey": "vue",
       "eager": true,
       "name": "vue",
-      "version": "3.5.22",
+      "version": "3.5.24",
       "id": "gsapmod:vue",
       "assets": {
         "js": {
@@ -177,7 +177,9 @@
           "async": []
         },
         "css": {
-          "sync": [],
+          "sync": [
+            "__federation_expose_gsap.css"
+          ],
           "async": []
         }
       }

@@ -1,5 +1,3 @@
-/*! #__NO_SIDE_EFFECTS__ */
-
 /**
  * @license
  * Copyright 2010-2025 Three.js Authors
@@ -7,19 +5,19 @@
  */
 
 /**
-* @vue/runtime-core v3.5.20
+* @vue/runtime-core v3.5.24
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
 
 /**
-* @vue/runtime-dom v3.5.20
+* @vue/runtime-dom v3.5.24
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/
 
 /**
-* @vue/shared v3.5.20
+* @vue/shared v3.5.24
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
 **/

@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "troika",
-    "pluginVersion": "0.18.4",
+    "pluginVersion": "0.21.3",
     "prefetchInterface": false,
     "publicPath": "/mods/troika/"
   },
@@ -48,29 +48,9 @@
     {
       "id": "troika:three",
       "name": "three",
-      "version": "0.180.0",
+      "version": "0.181.0",
       "singleton": true,
-      "requiredVersion": "^0.180.0",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "bundle.js",
-            "mf.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "troika:vue",
-      "name": "vue",
-      "version": "3.5.19",
-      "singleton": true,
-      "requiredVersion": "^3.5.19",
+      "requiredVersion": "^0.181.0",
       "assets": {
         "js": {
           "async": [],
@@ -89,7 +69,7 @@
   "remotes": [
     {
       "federationContainerName": "troika",
-      "moduleName": "TroikaText",
+      "moduleName": "UNKNOWN",
       "alias": "troika",
       "entry": "/troika/mod.mf.js"
     }
@@ -112,25 +92,6 @@
         }
       },
       "path": "./troika"
-    },
-    {
-      "id": "troika:troikaUI",
-      "name": "troikaUI",
-      "assets": {
-        "js": {
-          "sync": [
-            "464.bundle.js"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [
-            "__federation_expose_troikaUI.css"
-          ],
-          "async": []
-        }
-      },
-      "path": "./troikaUI"
     }
   ]
 }

@@ -5,7 +5,7 @@
     "name": "3d.player",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.9",
+      "buildVersion": "0.0.10",
       "buildName": "@reneos/slider.player"
     },
     "remoteEntry": {
@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.player",
-    "pluginVersion": "0.18.3",
+    "pluginVersion": "0.21.3",
     "prefetchInterface": false,
     "publicPath": "/player/"
   },
@@ -79,13 +79,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.20",
+      "requiredVersion": "^3.5.24",
       "shareScope": "default",
       "import": "vue",
       "eager": true,
       "shareKey": "vue",
       "name": "vue",
-      "version": "3.5.20",
+      "version": "3.5.24",
       "id": "3d.player:vue",
       "assets": {
         "js": {
