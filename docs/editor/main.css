@@ -435,7 +435,7 @@ button[data-v-4e7f94d3] {
 }
 
 .hierarhy-view[data-v-3eac9d53]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column}.focusedtree[data-v-3eac9d53]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-3eac9d53]{display:flex;gap:3px}.treeicon .svgicon[data-v-3eac9d53]{cursor:pointer}.label[data-v-3eac9d53]{cursor:pointer}
-.hierarhy-view[data-v-58798798]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;height:100%}.hierarhy-view .hierarhy-head[data-v-58798798]{display:flex;gap:10px}.focusedtree[data-v-58798798]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-58798798]{display:flex;gap:3px}.treeicon .svgicon[data-v-58798798]{cursor:pointer}.label[data-v-58798798]{cursor:pointer;max-width:140px}
+.hierarhy-view[data-v-328725bc]{overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;height:100%}.hierarhy-view .hierarhy-head[data-v-328725bc]{display:flex;gap:10px}.focusedtree[data-v-328725bc]{color:var(--text-focused);background-color:var(--bg-focused)}.treeicon[data-v-328725bc]{display:flex;gap:3px}.treeicon .svgicon[data-v-328725bc]{cursor:pointer}.label[data-v-328725bc]{cursor:pointer;max-width:140px}
 .hierarhy-view[data-v-6bf93691]{overflow-y:auto;overflow-x:hidden}.focusedtree[data-v-6bf93691]{color:var(--text-focused);background-color:var(--bg-focused)}.label[data-v-6bf93691]{cursor:pointer}
 
 .transformer {
