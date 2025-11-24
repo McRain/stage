@@ -1,0 +1,97 @@
+{
+  "id": "troika",
+  "name": "troika",
+  "metaData": {
+    "name": "troika",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.9",
+      "buildName": "@reneos/slider.mods.textmesh"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "troika",
+    "pluginVersion": "0.21.3",
+    "prefetchInterface": false,
+    "publicPath": "/mods/troika/"
+  },
+  "shared": [
+    {
+      "id": "troika:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "troika:three",
+      "name": "three",
+      "version": "0.181.0",
+      "singleton": true,
+      "requiredVersion": "^0.181.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "bundle.js",
+            "mf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "troika",
+      "moduleName": "UNKNOWN",
+      "alias": "troika",
+      "entry": "/troika/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "troika:troika",
+      "name": "troika",
+      "assets": {
+        "js": {
+          "sync": [
+            "183.bundle.js",
+            "226.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./troika"
+    }
+  ]
+}

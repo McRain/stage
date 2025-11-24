@@ -1,0 +1,224 @@
+{
+  "id": "tools",
+  "name": "tools",
+  "metaData": {
+    "name": "tools",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.9",
+      "buildName": "@reneos/slider.mods.tools"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "tools",
+    "pluginVersion": "0.21.3",
+    "prefetchInterface": false,
+    "publicPath": "/mods/tools/"
+  },
+  "shared": [
+    {
+      "id": "tools:@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "302.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "tools:three",
+      "name": "three",
+      "version": "0.181.0",
+      "singleton": true,
+      "requiredVersion": "^0.181.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "815.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "tools:vue",
+      "name": "vue",
+      "version": "3.5.24",
+      "singleton": true,
+      "requiredVersion": "^3.5.24",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "31.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "tools",
+      "moduleName": "LoaderScreen",
+      "alias": "tools",
+      "entry": "/tools/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "tools:tools",
+      "name": "tools",
+      "assets": {
+        "js": {
+          "sync": [
+            "993.bundle.js"
+          ],
+          "async": [
+            "509.bundle.js",
+            "960.bundle.js",
+            "884.bundle.js",
+            "549.bundle.js",
+            "772.bundle.js",
+            "38.bundle.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./tools"
+    },
+    {
+      "id": "tools:LoaderScreen",
+      "name": "LoaderScreen",
+      "assets": {
+        "js": {
+          "sync": [
+            "957.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_LoaderScreen.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./LoaderScreen"
+    },
+    {
+      "id": "tools:GoToUI",
+      "name": "GoToUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "955.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./GoToUI"
+    },
+    {
+      "id": "tools:BackSlideUI",
+      "name": "BackSlideUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "330.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./BackSlideUI"
+    },
+    {
+      "id": "tools:NextSlideUI",
+      "name": "NextSlideUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "628.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./NextSlideUI"
+    },
+    {
+      "id": "tools:VisibleSetUI",
+      "name": "VisibleSetUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "444.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./VisibleSetUI"
+    },
+    {
+      "id": "tools:CubeTextureUI",
+      "name": "CubeTextureUI",
+      "assets": {
+        "js": {
+          "sync": [
+            "74.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./CubeTextureUI"
+    }
+  ]
+}

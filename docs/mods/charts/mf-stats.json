@@ -1,0 +1,183 @@
+{
+  "id": "charts",
+  "name": "charts",
+  "metaData": {
+    "name": "charts",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.9",
+      "buildName": "@reneos/slider.mods.charts"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "charts",
+    "pluginVersion": "0.21.3",
+    "prefetchInterface": false,
+    "publicPath": "/mods/charts/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "shareScope": "default",
+      "import": "@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "eager": false,
+      "id": "charts:@reneos/app",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "302.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./charts"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.13.0",
+      "shareScope": "default",
+      "import": "gsap",
+      "name": "gsap",
+      "version": "3.13.0",
+      "eager": false,
+      "id": "charts:gsap",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "880.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.181.0",
+      "shareScope": "default",
+      "import": "three",
+      "name": "three",
+      "version": "0.181.0",
+      "eager": false,
+      "id": "charts:three",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "815.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.24",
+      "shareScope": "default",
+      "import": "vue",
+      "name": "vue",
+      "version": "3.5.24",
+      "eager": false,
+      "id": "charts:vue",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "31.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./charts"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "gsapmod",
+      "consumingFederationContainerName": "charts",
+      "federationContainerName": "gsapmod",
+      "moduleName": "GsapFloat",
+      "usedIn": [
+        "src/models/chartColumn.js",
+        "src/models/columnchart.js"
+      ],
+      "version": "/mods/gsap/mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./charts",
+      "id": "charts:charts",
+      "name": "charts",
+      "requires": [
+        "@reneos/app",
+        "vue"
+      ],
+      "file": "src\\index.mf.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "523.bundle.js"
+          ],
+          "async": [
+            "866.bundle.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./chartsUI",
+      "id": "charts:chartsUI",
+      "name": "chartsUI",
+      "requires": [],
+      "file": "src\\inspector\\chartsUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "229.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

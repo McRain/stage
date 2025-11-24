@@ -1,0 +1,395 @@
+{
+  "id": "gsapmod",
+  "name": "gsapmod",
+  "metaData": {
+    "name": "gsapmod",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.11",
+      "buildName": "@reneos/slider.mod.gsap"
+    },
+    "remoteEntry": {
+      "name": "mf.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "gsapmod",
+    "pluginVersion": "0.21.3",
+    "prefetchInterface": false,
+    "publicPath": "/mods/gsap/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.0.6",
+      "shareScope": "default",
+      "import": "@reneos/app",
+      "eager": true,
+      "shareKey": "@reneos/app",
+      "name": "@reneos/app",
+      "version": "1.0.6",
+      "id": "gsapmod:@reneos/app",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./gsap"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.181.0",
+      "shareScope": "default",
+      "eager": false,
+      "strictVersion": true,
+      "shareKey": "three",
+      "name": "three",
+      "version": "0.181.0",
+      "id": "gsapmod:three",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "815.bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./GsapRotation"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.5.24",
+      "shareScope": "default",
+      "import": "vue",
+      "shareKey": "vue",
+      "eager": true,
+      "name": "vue",
+      "version": "3.5.24",
+      "id": "gsapmod:vue",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "mf.js",
+            "bundle.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./gsap"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "gsapremote",
+      "consumingFederationContainerName": "gsapmod",
+      "federationContainerName": "gsapmod",
+      "moduleName": "GsapFloatUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/mods/gsap/mod.mf.js"
+    },
+    {
+      "alias": "gsapremote",
+      "consumingFederationContainerName": "gsapmod",
+      "federationContainerName": "gsapmod",
+      "moduleName": "GsapPositionUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/mods/gsap/mod.mf.js"
+    },
+    {
+      "alias": "gsapremote",
+      "consumingFederationContainerName": "gsapmod",
+      "federationContainerName": "gsapmod",
+      "moduleName": "GsapRotationUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/mods/gsap/mod.mf.js"
+    },
+    {
+      "alias": "gsapremote",
+      "consumingFederationContainerName": "gsapmod",
+      "federationContainerName": "gsapmod",
+      "moduleName": "GsapScaleUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/mods/gsap/mod.mf.js"
+    },
+    {
+      "alias": "gsapremote",
+      "consumingFederationContainerName": "gsapmod",
+      "federationContainerName": "gsapmod",
+      "moduleName": "GsapTyperUI",
+      "usedIn": [
+        "src/index.mf.js"
+      ],
+      "version": "/mods/gsap/mod.mf.js"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./gsap",
+      "id": "gsapmod:gsap",
+      "name": "gsap",
+      "requires": [
+        "@reneos/app",
+        "vue"
+      ],
+      "file": "src\\index.mf.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "753.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_gsap.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapPositionUI",
+      "id": "gsapmod:GsapPositionUI",
+      "name": "GsapPositionUI",
+      "requires": [],
+      "file": "src\\components\\inspector\\GsapPositionUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "670.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapPositionUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapPosition",
+      "id": "gsapmod:GsapPosition",
+      "name": "GsapPosition",
+      "requires": [],
+      "file": "src\\actions\\GsapPosition",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "912.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapRotationUI",
+      "id": "gsapmod:GsapRotationUI",
+      "name": "GsapRotationUI",
+      "requires": [],
+      "file": "src\\components\\inspector\\GsapRotationUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "953.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapRotationUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapRotation",
+      "id": "gsapmod:GsapRotation",
+      "name": "GsapRotation",
+      "requires": [
+        "three"
+      ],
+      "file": "src\\actions\\GsapRotation",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "207.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapScaleUI",
+      "id": "gsapmod:GsapScaleUI",
+      "name": "GsapScaleUI",
+      "requires": [],
+      "file": "src\\components\\inspector\\GsapScaleUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "435.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapScaleUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapScale",
+      "id": "gsapmod:GsapScale",
+      "name": "GsapScale",
+      "requires": [],
+      "file": "src\\actions\\GsapScale",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "681.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapFloatUI",
+      "id": "gsapmod:GsapFloatUI",
+      "name": "GsapFloatUI",
+      "requires": [],
+      "file": "src\\components\\inspector\\GsapFloatUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "695.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapFloatUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapFloat",
+      "id": "gsapmod:GsapFloat",
+      "name": "GsapFloat",
+      "requires": [],
+      "file": "src\\actions\\GsapFloat",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "205.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapTyperUI",
+      "id": "gsapmod:GsapTyperUI",
+      "name": "GsapTyperUI",
+      "requires": [],
+      "file": "src\\components\\inspector\\GsapTyperUI.vue",
+      "assets": {
+        "js": {
+          "sync": [
+            "859.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_GsapTyperUI.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./GsapTyper",
+      "id": "gsapmod:GsapTyper",
+      "name": "GsapTyper",
+      "requires": [],
+      "file": "src\\actions\\GsapTyper",
+      "assets": {
+        "js": {
+          "sync": [
+            "880.bundle.js",
+            "313.bundle.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}
