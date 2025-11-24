@@ -39,7 +39,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.33adf649.js"
+            "vendors-27545368.794366ec.js"
           ]
         },
         "css": {
@@ -63,7 +63,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.33adf649.js"
+            "vendors-27545368.794366ec.js"
           ]
         },
         "css": {
@@ -81,14 +81,13 @@
       "eager": true,
       "shareKey": "vue",
       "name": "vue",
-      "version": "3.5.22",
+      "version": "3.5.24",
       "id": "slider.editor:vue",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-dfbd6d0c.004cd9f6.js",
-            "vendors-be116c44.43182719.js"
+            "vendors-dfbd6d0c.004cd9f6.js"
           ]
         },
         "css": {
