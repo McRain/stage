@@ -5,7 +5,7 @@
     "name": "gsapmod",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.0.10",
+      "buildVersion": "0.0.11",
       "buildName": "@reneos/slider.mod.gsap"
     },
     "remoteEntry": {
@@ -311,6 +311,7 @@
       "assets": {
         "js": {
           "sync": [
+            "880.bundle.js",
             "313.bundle.js"
           ],
           "async": []
