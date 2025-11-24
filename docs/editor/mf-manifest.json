@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "slider.editor",
-    "pluginVersion": "0.21.3",
+    "pluginVersion": "0.21.6",
     "prefetchInterface": false,
     "publicPath": "/editor/"
   },
@@ -35,7 +35,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.794366ec.js"
+            "vendors-27545368.982b02be.js"
           ]
         },
         "css": {
@@ -47,14 +47,14 @@
     {
       "id": "slider.editor:three",
       "name": "three",
-      "version": "0.181.0",
+      "version": "0.181.2",
       "singleton": true,
-      "requiredVersion": "^0.181.0",
+      "requiredVersion": "^0.181.2",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.794366ec.js"
+            "vendors-27545368.982b02be.js"
           ]
         },
         "css": {
@@ -66,14 +66,14 @@
     {
       "id": "slider.editor:vue",
       "name": "vue",
-      "version": "3.5.24",
+      "version": "3.5.25",
       "singleton": true,
-      "requiredVersion": "^3.5.24",
+      "requiredVersion": "^3.5.25",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-dfbd6d0c.004cd9f6.js"
+            "vendors-dfbd6d0c.07489f89.js"
           ]
         },
         "css": {
