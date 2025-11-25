@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "tools",
-    "pluginVersion": "0.21.3",
+    "pluginVersion": "0.21.6",
     "prefetchInterface": false,
     "publicPath": "/mods/tools/"
   },
@@ -52,11 +52,11 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.181.0",
+      "requiredVersion": "^0.181.2",
       "shareScope": "default",
       "import": "three",
       "name": "three",
-      "version": "0.181.0",
+      "version": "0.181.2",
       "eager": false,
       "id": "tools:three",
       "assets": {
@@ -75,11 +75,11 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.24",
+      "requiredVersion": "^3.5.25",
       "shareScope": "default",
       "import": "vue",
       "name": "vue",
-      "version": "3.5.24",
+      "version": "3.5.25",
       "eager": false,
       "id": "tools:vue",
       "assets": {
@@ -120,7 +120,7 @@
         "@reneos/app",
         "vue"
       ],
-      "file": "src\\index.mf.js",
+      "file": "src/index.mf.js",
       "assets": {
         "js": {
           "sync": [
@@ -146,7 +146,7 @@
       "id": "tools:LoaderScreen",
       "name": "LoaderScreen",
       "requires": [],
-      "file": "src\\components\\loader.vue",
+      "file": "src/components/loader.vue",
       "assets": {
         "js": {
           "sync": [
@@ -167,7 +167,7 @@
       "id": "tools:GoToUI",
       "name": "GoToUI",
       "requires": [],
-      "file": "src\\actions\\GoToUI.vue",
+      "file": "src/actions/GoToUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -186,7 +186,7 @@
       "id": "tools:BackSlideUI",
       "name": "BackSlideUI",
       "requires": [],
-      "file": "src\\actions\\BackSlideUI.vue",
+      "file": "src/actions/BackSlideUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -205,7 +205,7 @@
       "id": "tools:NextSlideUI",
       "name": "NextSlideUI",
       "requires": [],
-      "file": "src\\actions\\NextSlideUI.vue",
+      "file": "src/actions/NextSlideUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -224,7 +224,7 @@
       "id": "tools:VisibleSetUI",
       "name": "VisibleSetUI",
       "requires": [],
-      "file": "src\\actions\\VisibleSetUI.vue",
+      "file": "src/actions/VisibleSetUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -243,7 +243,7 @@
       "id": "tools:CubeTextureUI",
       "name": "CubeTextureUI",
       "requires": [],
-      "file": "src\\actions\\CubeTextureUI.vue",
+      "file": "src/actions/CubeTextureUI.vue",
       "assets": {
         "js": {
           "sync": [
