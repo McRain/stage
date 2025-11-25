@@ -167,7 +167,7 @@
         "@reneos/app",
         "vue"
       ],
-      "file": "src\\index.mf.js",
+      "file": "src/index.mf.js",
       "assets": {
         "js": {
           "sync": [
@@ -189,7 +189,7 @@
       "id": "gsapmod:GsapPositionUI",
       "name": "GsapPositionUI",
       "requires": [],
-      "file": "src\\components\\inspector\\GsapPositionUI.vue",
+      "file": "src/components/inspector/GsapPositionUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -210,7 +210,7 @@
       "id": "gsapmod:GsapPosition",
       "name": "GsapPosition",
       "requires": [],
-      "file": "src\\actions\\GsapPosition",
+      "file": "src/actions/GsapPosition",
       "assets": {
         "js": {
           "sync": [
@@ -230,7 +230,7 @@
       "id": "gsapmod:GsapRotationUI",
       "name": "GsapRotationUI",
       "requires": [],
-      "file": "src\\components\\inspector\\GsapRotationUI.vue",
+      "file": "src/components/inspector/GsapRotationUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -253,7 +253,7 @@
       "requires": [
         "three"
       ],
-      "file": "src\\actions\\GsapRotation",
+      "file": "src/actions/GsapRotation",
       "assets": {
         "js": {
           "sync": [
@@ -273,7 +273,7 @@
       "id": "gsapmod:GsapScaleUI",
       "name": "GsapScaleUI",
       "requires": [],
-      "file": "src\\components\\inspector\\GsapScaleUI.vue",
+      "file": "src/components/inspector/GsapScaleUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -294,7 +294,7 @@
       "id": "gsapmod:GsapScale",
       "name": "GsapScale",
       "requires": [],
-      "file": "src\\actions\\GsapScale",
+      "file": "src/actions/GsapScale",
       "assets": {
         "js": {
           "sync": [
@@ -314,7 +314,7 @@
       "id": "gsapmod:GsapFloatUI",
       "name": "GsapFloatUI",
       "requires": [],
-      "file": "src\\components\\inspector\\GsapFloatUI.vue",
+      "file": "src/components/inspector/GsapFloatUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -335,7 +335,7 @@
       "id": "gsapmod:GsapFloat",
       "name": "GsapFloat",
       "requires": [],
-      "file": "src\\actions\\GsapFloat",
+      "file": "src/actions/GsapFloat",
       "assets": {
         "js": {
           "sync": [
@@ -355,7 +355,7 @@
       "id": "gsapmod:GsapTyperUI",
       "name": "GsapTyperUI",
       "requires": [],
-      "file": "src\\components\\inspector\\GsapTyperUI.vue",
+      "file": "src/components/inspector/GsapTyperUI.vue",
       "assets": {
         "js": {
           "sync": [
@@ -376,7 +376,7 @@
       "id": "gsapmod:GsapTyper",
       "name": "GsapTyper",
       "requires": [],
-      "file": "src\\actions\\GsapTyper",
+      "file": "src/actions/GsapTyper",
       "assets": {
         "js": {
           "sync": [
