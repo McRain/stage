@@ -39,14 +39,12 @@
         "js": {
           "async": [],
           "sync": [
-            "main.js"
+            "vendors-27545368.43bdb5e9.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": [
-            "main.css"
-          ]
+          "sync": []
         }
       },
       "usedIn": []
@@ -65,14 +63,12 @@
         "js": {
           "async": [],
           "sync": [
-            "main.js"
+            "vendors-27545368.43bdb5e9.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": [
-            "main.css"
-          ]
+          "sync": []
         }
       },
       "usedIn": []
@@ -91,14 +87,13 @@
         "js": {
           "async": [],
           "sync": [
-            "main.js"
+            "vendors-dfbd6d0c.07489f89.js",
+            "vendors-be116c44.ca0efdef.js"
           ]
         },
         "css": {
           "async": [],
-          "sync": [
-            "main.css"
-          ]
+          "sync": []
         }
       },
       "usedIn": []
