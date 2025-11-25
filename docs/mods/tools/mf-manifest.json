@@ -35,7 +35,7 @@
         "js": {
           "async": [],
           "sync": [
-            "302.7845ae778ebf99d46da2.chunk.js"
+            "302.js"
           ]
         },
         "css": {
@@ -54,7 +54,7 @@
         "js": {
           "async": [],
           "sync": [
-            "three.4af55eb2afdbe8f10a76.chunk.js"
+            "three.js"
           ]
         },
         "css": {
@@ -73,7 +73,7 @@
         "js": {
           "async": [],
           "sync": [
-            "31.1b7d0f914fd739c8e065.chunk.js"
+            "31.js"
           ]
         },
         "css": {
@@ -98,15 +98,15 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_tools.ae9c177c26daf13b7ab8.chunk.js"
+            "__federation_expose_tools.js"
           ],
           "async": [
-            "509.bec528b78de34f3c07f5.chunk.js",
-            "960.b32868c29a06e8565e32.chunk.js",
-            "884.e5f36595e9be8d348191.chunk.js",
-            "549.eacecdc9648dcb66bb3c.chunk.js",
-            "772.b8983f2f1eb6a9443163.chunk.js",
-            "38.e88889c2a50ce19f7317.chunk.js"
+            "509.js",
+            "960.js",
+            "884.js",
+            "549.js",
+            "772.js",
+            "38.js"
           ]
         },
         "css": {
@@ -122,7 +122,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_LoaderScreen.2fc22fe3affc6ff7099f.chunk.js"
+            "__federation_expose_LoaderScreen.js"
           ],
           "async": []
         },
@@ -141,7 +141,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_GoToUI.b32868c29a06e8565e32.chunk.js"
+            "__federation_expose_GoToUI.js"
           ],
           "async": []
         },
@@ -158,7 +158,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_BackSlideUI.e5f36595e9be8d348191.chunk.js"
+            "__federation_expose_BackSlideUI.js"
           ],
           "async": []
         },
@@ -175,7 +175,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_NextSlideUI.eacecdc9648dcb66bb3c.chunk.js"
+            "__federation_expose_NextSlideUI.js"
           ],
           "async": []
         },
@@ -192,7 +192,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_VisibleSetUI.b8983f2f1eb6a9443163.chunk.js"
+            "__federation_expose_VisibleSetUI.js"
           ],
           "async": []
         },
@@ -209,7 +209,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_CubeTextureUI.d91fb4d8acb4896f9b74.chunk.js"
+            "__federation_expose_CubeTextureUI.js"
           ],
           "async": []
         },
