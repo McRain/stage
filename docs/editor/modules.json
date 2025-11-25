@@ -1,0 +1,11 @@
+[
+   {
+        "uid": "gsap:/mods/gsap/mf.js",
+        "title": "GSAP Animation",
+        "description": "<p>The module provides element transformations: movement, rotation, and scale.</p>\n        <p>Use GSAP:</p>\n        <p><a href=\"https://github.com/greensock/GSAP\" target=\"blank\">https://github.com/greensock/GSAP</a></p>",
+        "name": "gsapmod",
+        "entry": "/mods/gsap/mf.js",
+        "index": "gsap",
+        "global": true
+    }
+]

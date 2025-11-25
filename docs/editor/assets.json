@@ -1,0 +1,43 @@
+[    
+    {
+        "uid": "cube",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/assets/cube.glb",
+        "type": "model",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "sphere",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/assets/sphere.glb",
+        "type": "model",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "plane",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/assets/plane.glb",
+        "type": "model",
+        "parameters": {
+            "clone": true
+        },
+        "shadow": {
+            "cast": false,
+            "receive": false
+        }
+    },
+    {
+        "uid": "hdr",
+        "url": "https://s3.eu-west-1.amazonaws.com/3dbuilder.reneos.com/assets/golden_gate_hills_1k.hdr",
+        "type": "hdr"
+    }
+]
