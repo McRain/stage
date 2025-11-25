@@ -63,7 +63,7 @@
         "js": {
           "async": [],
           "sync": [
-            "three.js"
+            "815.js"
           ]
         },
         "css": {
