@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "tools",
-    "pluginVersion": "0.21.3",
+    "pluginVersion": "0.21.6",
     "prefetchInterface": false,
     "publicPath": "/mods/tools/"
   },
@@ -38,7 +38,7 @@
         "js": {
           "async": [],
           "sync": [
-            "302.bundle.js"
+            "302.js"
           ]
         },
         "css": {
@@ -52,18 +52,18 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.181.0",
+      "requiredVersion": "^0.181.2",
       "shareScope": "default",
       "import": "three",
       "name": "three",
-      "version": "0.181.0",
+      "version": "0.181.2",
       "eager": false,
       "id": "tools:three",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "815.bundle.js"
+            "three.js"
           ]
         },
         "css": {
@@ -75,18 +75,18 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.24",
+      "requiredVersion": "^3.5.25",
       "shareScope": "default",
       "import": "vue",
       "name": "vue",
-      "version": "3.5.24",
+      "version": "3.5.25",
       "eager": false,
       "id": "tools:vue",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "31.bundle.js"
+            "31.js"
           ]
         },
         "css": {
@@ -124,15 +124,15 @@
       "assets": {
         "js": {
           "sync": [
-            "993.bundle.js"
+            "__federation_expose_tools.js"
           ],
           "async": [
-            "509.bundle.js",
-            "960.bundle.js",
-            "884.bundle.js",
-            "549.bundle.js",
-            "772.bundle.js",
-            "38.bundle.js"
+            "509.js",
+            "960.js",
+            "884.js",
+            "549.js",
+            "772.js",
+            "38.js"
           ]
         },
         "css": {
@@ -150,7 +150,7 @@
       "assets": {
         "js": {
           "sync": [
-            "957.bundle.js"
+            "__federation_expose_LoaderScreen.js"
           ],
           "async": []
         },
@@ -171,7 +171,7 @@
       "assets": {
         "js": {
           "sync": [
-            "955.bundle.js"
+            "__federation_expose_GoToUI.js"
           ],
           "async": []
         },
@@ -190,7 +190,7 @@
       "assets": {
         "js": {
           "sync": [
-            "330.bundle.js"
+            "__federation_expose_BackSlideUI.js"
           ],
           "async": []
         },
@@ -209,7 +209,7 @@
       "assets": {
         "js": {
           "sync": [
-            "628.bundle.js"
+            "__federation_expose_NextSlideUI.js"
           ],
           "async": []
         },
@@ -228,7 +228,7 @@
       "assets": {
         "js": {
           "sync": [
-            "444.bundle.js"
+            "__federation_expose_VisibleSetUI.js"
           ],
           "async": []
         },
@@ -247,7 +247,7 @@
       "assets": {
         "js": {
           "sync": [
-            "74.bundle.js"
+            "__federation_expose_CubeTextureUI.js"
           ],
           "async": []
         },
