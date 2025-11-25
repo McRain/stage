@@ -39,7 +39,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.43bdb5e9.js"
+            "vendors-27545368.982b02be.js"
           ]
         },
         "css": {
@@ -63,7 +63,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-27545368.43bdb5e9.js"
+            "vendors-27545368.982b02be.js"
           ]
         },
         "css": {
@@ -87,8 +87,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-dfbd6d0c.07489f89.js",
-            "vendors-be116c44.ca0efdef.js"
+            "vendors-dfbd6d0c.07489f89.js"
           ]
         },
         "css": {
