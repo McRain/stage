@@ -20,7 +20,7 @@
       "api": ""
     },
     "globalName": "3d.player",
-    "pluginVersion": "0.21.3",
+    "pluginVersion": "0.21.6",
     "prefetchInterface": false,
     "publicPath": "/player/"
   },
@@ -53,13 +53,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.180.0",
+      "requiredVersion": "^0.181.2",
       "shareScope": "default",
       "import": "three",
       "eager": true,
       "shareKey": "three",
       "name": "three",
-      "version": "0.180.0",
+      "version": "0.181.2",
       "id": "3d.player:three",
       "assets": {
         "js": {
@@ -79,13 +79,13 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.5.24",
+      "requiredVersion": "^3.5.25",
       "shareScope": "default",
       "import": "vue",
       "eager": true,
       "shareKey": "vue",
       "name": "vue",
-      "version": "3.5.24",
+      "version": "3.5.25",
       "id": "3d.player:vue",
       "assets": {
         "js": {
